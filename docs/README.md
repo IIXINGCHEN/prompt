@@ -11,6 +11,8 @@ docs/
 │   └── axiom-os-v3.7.2.md     # AxiomOS 版本 3.7.2 配置
 ├── workflows/                  # 工作流程文档
 │   └── trae-workflow-6a.md    # TRAE 工作流 6A 实践
+├── references/                 # 参考文档
+│   └── mcp-tools-reference.md # MCP 工具参考手册
 └── README.md                   # 本文件
 ```
 
@@ -22,6 +24,9 @@ docs/
 
 ### 工作流程文档 (workflows/)
 - **trae-workflow-6a.md** - TRAE Rules 实践：6A 工作流配置与实践经验
+
+### 参考文档 (references/)
+- **mcp-tools-reference.md** - MCP 工具参考手册：包含所有 Model Context Protocol 工具的详细信息和官方仓库链接
 
 ## 🔄 版本管理
 
