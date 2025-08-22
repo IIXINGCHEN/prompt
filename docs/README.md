@@ -12,7 +12,9 @@ docs/
 ├── workflows/                  # 工作流程文档
 │   └── trae-workflow-6a.md    # TRAE 工作流 6A 实践
 ├── references/                 # 参考文档
-│   └── mcp-tools-reference.md # MCP 工具参考手册
+│   ├── mcp-tools-reference.md # MCP 工具参考手册
+│   ├── mcp-config-template.json # MCP 配置文件模板
+│   └── mcp-config-guide.md    # MCP 配置指南
 └── README.md                   # 本文件
 ```
 
@@ -27,6 +29,8 @@ docs/
 
 ### 参考文档 (references/)
 - **mcp-tools-reference.md** - MCP 工具参考手册：包含所有 Model Context Protocol 工具的详细信息和官方仓库链接
+- **mcp-config-template.json** - MCP 配置文件模板：完整的 JSON 格式配置文件，包含所有工具配置
+- **mcp-config-guide.md** - MCP 配置指南：详细的配置说明、安全建议和故障排除指南
 
 ## 🔄 版本管理
 

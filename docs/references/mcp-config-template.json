@@ -1,0 +1,114 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "task-manager": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-task-manager"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-context7"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "CONTEXT7_API_KEY": "your-context7-api-key-here"
+      }
+    },
+    "deepwiki": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-deepwiki"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "chrome-browser": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-chrome"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "CHROME_EXECUTABLE_PATH": "/path/to/chrome/executable"
+      }
+    },
+    "codebase-retrieval": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-codebase-retrieval",
+        "/path/to/your/project"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "ast-aware-editor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-ast-editor"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/username/Desktop",
+        "/Users/username/Documents",
+        "/Users/username/Downloads"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "web-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-web-search"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "SEARCH_API_KEY": "your-search-api-key-here"
+      }
+    },
+    "git-integration": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-git",
+        "/path/to/your/git/repository"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "GIT_USER_NAME": "Your Name",
+        "GIT_USER_EMAIL": "your.email@example.com"
+      }
+    }
+  }
+}
