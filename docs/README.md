@@ -7,6 +7,7 @@
 ```
 docs/
 ├── configs/                    # 系统配置文档
+│   ├── axiom-os-v1.0.md       # AxiomOS 版本 1.0 配置
 │   ├── axiom-os-v3.5.md       # AxiomOS 版本 3.5 配置
 │   └── axiom-os-v3.7.2.md     # AxiomOS 版本 3.7.2 配置
 ├── workflows/                  # 工作流程文档
@@ -21,8 +22,9 @@ docs/
 ## 📋 文档说明
 
 ### 配置文档 (configs/)
+- **axiom-os-v1.0.md** - AxiomOS 系统版本 1.0 的完整配置文档（早期版本）
 - **axiom-os-v3.5.md** - AxiomOS 系统版本 3.5 的完整配置文档
-- **axiom-os-v3.7.2.md** - AxiomOS 系统版本 3.7.2 的完整配置文档
+- **axiom-os-v3.7.2.md** - AxiomOS 系统版本 3.7.2 的完整配置文档（最新版本）
 
 ### 工作流程文档 (workflows/)
 - **trae-workflow-6a.md** - TRAE Rules 实践：6A 工作流配置与实践经验
@@ -34,7 +36,10 @@ docs/
 
 ## 🔄 版本管理
 
-- 配置文档使用语义化版本号：`v{major}.{minor}.{patch}`
+- **AxiomOS 配置文档版本历史**：
+  - `v1.0` - 早期版本，包含基础协议和工作流
+  - `v3.5` - 增强版本，添加了更多 MCP 工具集成
+  - `v3.7.2` - 最新版本，优化了蓝图协议和质量门控
 - 工作流程文档使用描述性版本标识
 - 所有文档遵循 kebab-case 命名规范
 
