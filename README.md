@@ -54,8 +54,8 @@ prompt/
 │   │   ├── claude-protocol-v2.0.zh.md         # Claude 协议 v2.0（中文版）
 │   │   └── claude-python-integration.zh.md    # Claude Python 集成指南
 │   ├── rules/                                  # 协议规则文档
-│   │   ├── cognitive-copilot-protocol-v6.3.en.md # 认知副驾协议 v6.3（英文版）
-│   │   └── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协议 v6.3（中文版）
+│   │   ├── cognitive-copilot-protocol-v6.3.en.md # cognitive-copilot-protocol v6.3（英文版）
+│   │   └── cognitive-copilot-protocol-v6.3.zh.md # cognitive-copilot-protocol v6.3（中文版）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
 │   │   ├── trae-workflow-v7a.zh.md            # TRAE 7A 工作流
