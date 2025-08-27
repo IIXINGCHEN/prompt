@@ -1,0 +1,53 @@
+{
+    "mcpServers": {
+      "Sequential thinking": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-sequential-thinking"
+        ]
+      },
+      "Context 7": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@upstash/context7-mcp@latest"
+        ]
+      },
+      "desktop-commander": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@wonderwhy-er/desktop-commander"
+        ]
+      },
+      "mcp-deepwiki": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "mcp-deepwiki@latest"
+        ]
+      },
+      "chrome-mcp-server": {
+        "command": "node",
+        "args": [
+          "C:\\Users\\admin\\AppData\\Local\\pnpm\\global\\5\\node_modules\\mcp-chrome-bridge\\dist\\mcp\\mcp-server-stdio.js"
+        ]
+      },
+      "Codebase MCP": {
+        "command": "codebase-mcp",
+        "args": [
+          "start"
+        ]
+      },
+      "ast-aware-editor": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "G:\\admin\\mcp\\ast-mcp-server",
+          "run",
+          "server.py"
+        ]
+      }
+    }
+  }
