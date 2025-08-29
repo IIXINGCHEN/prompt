@@ -16,8 +16,11 @@ docs/
 │   ├── claude-protocol-v2.0.zh.md            # Claude 协议 v2.0（中文版）
 │   └── claude-python-integration.zh.md       # Claude Python 集成指南
 ├── rules/                                      # 协议规则文档
-│   ├── cognitive-copilot-protocol-v6.3.en.md # cognitive-copilot-protocol v6.3（英文版）
-│   └── cognitive-copilot-protocol-v6.3.zh.md # cognitive-copilot-protocol v6.3（中文版）
+│   ├── cognitive-copilot-protocol-v6.3.en.md # 认知副驾协作协议 v6.3（英文版）
+│   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协作协议 v6.3（中文版）
+│   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协作协议 v7.3（中文版）
+│   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协作协议 v8.0（中文版）
+│   └── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协作协议 v8.1（中文版）
 ├── workflows/                                  # 工作流程文档
 │   ├── trae-workflow-v6a.zh.md               # TRAE 6A 工作流实践
 │   ├── trae-workflow-v7a.zh.md               # TRAE 7A 认知工作流
@@ -25,8 +28,10 @@ docs/
 ├── references/                                 # 参考文档
 │   ├── mcp-tools-reference.md                # MCP 工具参考手册
 │   ├── mcp-config-template.json              # MCP 配置文件模板
-│   └── mcp-config-guide.md                   # MCP 配置指南
-└── README.md                                   # 本文件
+│   ├── mcp-config-guide.md                   # MCP 配置指南
+│   └── mcp.json                              # MCP 服务器配置文件
+├── README.md                                   # 本文件
+└── RENAMING_LOG.md                             # 文件重命名日志
 ```
 
 ## 📋 文档说明
@@ -44,6 +49,9 @@ docs/
 ### 协议规则文档 (rules/)
 - **cognitive-copilot-protocol-v6.3.en.md** - Claude 4 Sonnet 认知副驾协作协议 v6.3（英文版）
 - **cognitive-copilot-protocol-v6.3.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v6.3（中文版）
+- **cognitive-copilot-protocol-v7.3.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v7.3（中文版）
+- **cognitive-copilot-protocol-v8.0.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.0（中文版）
+- **cognitive-copilot-protocol-v8.1.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.1（中文版，最新版本）
 
 ### 工作流程文档 (workflows/)
 - **trae-workflow-v6a.zh.md** - TRAE 6A 工作流配置与实践经验（适合中等复杂度任务）
@@ -54,6 +62,7 @@ docs/
 - **mcp-tools-reference.md** - MCP 工具参考手册：包含所有 Model Context Protocol 工具的详细信息和官方仓库链接
 - **mcp-config-template.json** - MCP 配置文件模板：完整的 JSON 格式配置文件，包含所有工具配置
 - **mcp-config-guide.md** - MCP 配置指南：详细的配置说明、安全建议和故障排除指南
+- **mcp.json** - MCP 服务器配置文件：实际可用的服务器配置示例
 
 ## 🔄 版本管理
 
@@ -63,6 +72,9 @@ docs/
 - **v3.7.2** - 最新版本，优化了蓝图协议和质量门控机制
 - **v6.1** - 英文版本，支持国际化使用
 - **v6.3** - 认知副驾协作协议，专注于人机协作优化
+- **v7.3** - 认知副驾协作协议增强版，优化协作流程
+- **v8.0** - 认知副驾协作协议重大更新，增强智能化程度
+- **v8.1** - 认知副驾协作协议最新版本，完善功能和性能
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）

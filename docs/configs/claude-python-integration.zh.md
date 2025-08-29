@@ -1,32 +1,32 @@
-# Development Guidelines
+# Claude Python 集成开发指南
 
-This document contains critical information about working with this codebase. Follow these guidelines precisely.
+本文档包含与此代码库协作的关键信息。请严格遵循这些指导原则。
 
-## Core Development Rules
+## 核心开发规则
 
-1. Package Management
-   - ONLY use uv, NEVER pip
-   - Installation: `uv add package`
-   - Running tools: `uv run tool`
-   - Upgrading: `uv add --dev package --upgrade-package package`
-   - FORBIDDEN: `uv pip install`, `@latest` syntax
+### 1. 包管理
+- 仅使用 uv，绝不使用 pip
+- 安装：`uv add package`
+- 运行工具：`uv run tool`
+- 升级：`uv add --dev package --upgrade-package package`
+- 禁止：`uv pip install`、`@latest` 语法
 
-2. Code Quality
-   - Type hints required for all code
-   - use pyrefly for type checking
-     - run `pyrefly init` to start
-     - run `pyrefly check` after every change and fix resultings errors
-   - Public APIs must have docstrings
-   - Functions must be focused and small
-   - Follow existing patterns exactly
-   - Line length: 88 chars maximum
+### 2. 代码质量
+- 所有代码都需要类型提示
+- 使用 pyrefly 进行类型检查
+  - 运行 `pyrefly init` 开始
+  - 每次更改后运行 `pyrefly check` 并修复错误
+- 公共 API 必须有文档字符串
+- 函数必须专注且简洁
+- 严格遵循现有模式
+- 行长度：最多 88 个字符
 
-3. Testing Requirements
-   - Framework: `uv run pytest`
-   - Async testing: use anyio, not asyncio
-   - Coverage: test edge cases and errors
-   - New features require tests
-   - Bug fixes require regression tests
+### 3. 测试要求
+- 框架：`uv run pytest`
+- 异步测试：使用 anyio，不使用 asyncio
+- 覆盖率：测试边界情况和错误
+- 新功能需要测试
+- Bug 修复需要回归测试
 
 4. Code Style
     - PEP 8 naming (snake_case for functions/variables)
