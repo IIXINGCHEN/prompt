@@ -29,7 +29,8 @@
 - **文档驱动**: 每个阶段都有对应的文档产出
 
 ### 🧠 认知副驾协议
-- **智能协作**: Claude 4 Sonnet 认知副驾协作协议 v6.3
+- **版本演进**: 从 v6.3 到 v8.1 的持续优化
+- **智能协作**: Claude 4 Sonnet 认知副驾协作协议
 - **状态管理**: 管理状态、预测影响的认知放大器
 - **双语支持**: 提供中英文版本的协议文档
 
@@ -38,6 +39,11 @@
 - **配置模板**: 提供开箱即用的配置文件模板
 - **服务器配置**: 实际可用的MCP服务器配置文件
 - **安全指南**: 详细的安全配置建议和故障排除指南
+
+### 🎯 协议优化指南
+- **prompt.md**: AI协议架构师优化指南，提供协议设计和优化的专业建议
+- **结构化方法**: 系统性的协议优化流程和最佳实践
+- **质量提升**: 帮助构建更高效、智能的AI协作框架
 
 ## 📁 项目结构
 
@@ -54,8 +60,11 @@ prompt/
 │   │   ├── claude-protocol-v2.0.zh.md         # Claude 协议 v2.0（中文版）
 │   │   └── claude-python-integration.zh.md    # Claude Python 集成指南
 │   ├── rules/                                  # 协议规则文档
-│   │   ├── cognitive-copilot-protocol-v6.3.en.md # cognitive-copilot-protocol v6.3（英文版）
-│   │   └── cognitive-copilot-protocol-v6.3.zh.md # cognitive-copilot-protocol v6.3（中文版）
+│   │   ├── cognitive-copilot-protocol-v6.3.en.md # 认知副驾协议 v6.3（英文版）
+│   │   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协议 v6.3（中文版）
+│   │   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协议 v7.3（中文版）
+│   │   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协议 v8.0（中文版）
+│   │   └── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协议 v8.1（中文版）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
 │   │   ├── trae-workflow-v7a.zh.md            # TRAE 7A 工作流
@@ -68,6 +77,7 @@ prompt/
 │   ├── README.md                               # 文档目录说明
 │   └── RENAMING_LOG.md                         # 文件重命名日志
 ├── LICENSE                                     # MIT 许可证
+├── prompt.md                                   # AI协议架构师优化指南
 └── README.md                                   # 项目说明（本文件）
 ```
 
@@ -75,11 +85,18 @@ prompt/
 
 ### 1. 选择协议版本
 
-根据您的需求选择合适的 AxiomOS 版本：
+根据您的需求选择合适的协议版本：
 
+**AxiomOS 系统配置**：
 - **v2.4**: 基础版本（标记为v1.0），包含核心协议和基础工作流
-- **v3.7.2**: 最新版本，优化了蓝图协议和质量门控（推荐）
-- **v6.1**: 国际化版本，支持中英文双语配置
+- **v3.7.2**: 优化版本，改进了蓝图协议和质量门控
+- **v6.1**: 国际化版本，支持中英文双语配置（推荐）
+
+**认知副驾协议**：
+- **v6.3**: 基础认知副驾协议
+- **v7.3**: 增强版本，优化协作流程
+- **v8.0**: 重大更新，增强智能化程度
+- **v8.1**: 最新版本，完善功能和性能（推荐）
 
 ### 2. 配置 MCP 工具
 
