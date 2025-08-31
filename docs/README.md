@@ -20,7 +20,10 @@ docs/
 │   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协作协议 v6.3（中文版）
 │   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协作协议 v7.3（中文版）
 │   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协作协议 v8.0（中文版）
-│   └── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协作协议 v8.1（中文版）
+│   ├── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协作协议 v8.1（中文版）
+│   ├── cognitive-copilot-protocol-v9.0.zh.md # AxiomOS Cognitive Co-pilot 协议 v9.0（中文版）
+│   ├── cognitive-copilot-protocol-v9.1.zh.md # AxiomOS Cognitive Co-pilot 协议 v9.1（中文版）
+│   └── cognitive-copilot-protocol-v9.2.zh.md # AxiomOS Cognitive Co-pilot Protocol v9.2（中文版，最新版本）
 ├── workflows/                                  # 工作流程文档
 │   ├── trae-workflow-v6a.zh.md               # TRAE 6A 工作流实践
 │   ├── trae-workflow-v7a.zh.md               # TRAE 7A 认知工作流
@@ -51,7 +54,10 @@ docs/
 - **cognitive-copilot-protocol-v6.3.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v6.3（中文版）
 - **cognitive-copilot-protocol-v7.3.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v7.3（中文版）
 - **cognitive-copilot-protocol-v8.0.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.0（中文版）
-- **cognitive-copilot-protocol-v8.1.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.1（中文版，最新版本）
+- **cognitive-copilot-protocol-v8.1.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.1（中文版）
+- **cognitive-copilot-protocol-v9.0.zh.md** - AxiomOS Cognitive Co-pilot 协议 v9.0（中文版）
+- **cognitive-copilot-protocol-v9.1.zh.md** - AxiomOS Cognitive Co-pilot 协议 v9.1（中文版）
+- **cognitive-copilot-protocol-v9.2.zh.md** - AxiomOS Cognitive Co-pilot Protocol v9.2（中文版，最新版本）
 
 ### 工作流程文档 (workflows/)
 - **trae-workflow-v6a.zh.md** - TRAE 6A 工作流配置与实践经验（适合中等复杂度任务）
@@ -74,7 +80,10 @@ docs/
 - **v6.3** - 认知副驾协作协议，专注于人机协作优化
 - **v7.3** - 认知副驾协作协议增强版，优化协作流程
 - **v8.0** - 认知副驾协作协议重大更新，增强智能化程度
-- **v8.1** - 认知副驾协作协议最新版本，完善功能和性能
+- **v8.1** - 认知副驾协作协议，完善功能和性能
+- **v9.0** - AxiomOS Cognitive Co-pilot 协议，全面重构版本
+- **v9.1** - AxiomOS Cognitive Co-pilot 协议，优化版本
+- **v9.2** - AxiomOS Cognitive Co-pilot Protocol，最新版本（推荐）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）

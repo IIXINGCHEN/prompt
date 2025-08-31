@@ -64,7 +64,10 @@ prompt/
 │   │   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协议 v6.3（中文版）
 │   │   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协议 v7.3（中文版）
 │   │   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协议 v8.0（中文版）
-│   │   └── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协议 v8.1（中文版）
+│   │   ├── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协议 v8.1（中文版）
+│   │   ├── cognitive-copilot-protocol-v9.0.zh.md # 认知副驾协议 v9.0（中文版）
+│   │   ├── cognitive-copilot-protocol-v9.1.zh.md # 认知副驾协议 v9.1（中文版）
+│   │   └── cognitive-copilot-protocol-v9.2.zh.md # 认知副驾协议 v9.2（中文版，最新版本）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
 │   │   ├── trae-workflow-v7a.zh.md            # TRAE 7A 工作流
@@ -77,7 +80,9 @@ prompt/
 │   ├── README.md                               # 文档目录说明
 │   └── RENAMING_LOG.md                         # 文件重命名日志
 ├── LICENSE                                     # MIT 许可证
+├── main.md                                     # 主要协议文档
 ├── prompt.md                                   # AI协议架构师优化指南
+├── user.prompt.md                              # 用户提示词指南
 └── README.md                                   # 项目说明（本文件）
 ```
 
@@ -96,7 +101,10 @@ prompt/
 - **v6.3**: 基础认知副驾协议
 - **v7.3**: 增强版本，优化协作流程
 - **v8.0**: 重大更新，增强智能化程度
-- **v8.1**: 最新版本，完善功能和性能（推荐）
+- **v8.1**: 完善功能和性能
+- **v9.0**: AxiomOS Cognitive Co-pilot 协议，全面重构版本
+- **v9.1**: AxiomOS Cognitive Co-pilot 协议，优化版本
+- **v9.2**: AxiomOS Cognitive Co-pilot Protocol，最新版本（推荐）
 
 ### 2. 配置 MCP 工具
 
