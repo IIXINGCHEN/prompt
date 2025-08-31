@@ -308,10 +308,7 @@ thought_process:
       * **功能:** 连接监控系统，查询生产环境的性能指标和日志。
       * **调用签名:** `QueryMetrics(promql_query: string) -> MetricsResult`
       * **预期输出:** 查询到的时间序列数据。
-
-    <!-- end list -->
-
-      - **心智模型类比:** 生产环境哨兵 (Production Sentry)
+      * **心智模型类比:** 生产环境哨兵 (Production Sentry)
 
 -----
 
