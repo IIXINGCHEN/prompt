@@ -7,32 +7,37 @@
 ```
 docs/
 ├── configs/                                    # 系统配置文档
-│   ├── axiom-os-v1.0.zh.md                   # AxiomOS 版本 1.0 配置（基础版本）
-│   ├── axiom-os-v3.7.2.zh.md                 # AxiomOS 版本 3.7.2 配置（最新版本）
-│   ├── axiom-os-v6.1.en.md                   # AxiomOS 版本 6.1 配置（英文版）
-│   ├── axiom-os-v6.1.zh.md                   # AxiomOS 版本 6.1 配置（中文版）
-│   ├── claude-protocol-v1.0.en.md            # Claude 协议 v1.0（英文版）
-│   ├── claude-protocol-v1.0.zh.md            # Claude 协议 v1.0（中文版）
-│   ├── claude-protocol-v2.0.zh.md            # Claude 协议 v2.0（中文版）
+│   ├── axiom-os-v1-0.zh.md                   # AxiomOS 版本 1.0 配置（基础版本）
+│   ├── axiom-os-v3-7-2.zh.md                 # AxiomOS 版本 3.7.2 配置（最新版本）
+│   ├── axiom-os-v6-1.en.md                   # AxiomOS 版本 6.1 配置（英文版）
+│   ├── axiom-os-v6-1.zh.md                   # AxiomOS 版本 6.1 配置（中文版）
+│   ├── claude-protocol-v1-0.en.md            # Claude 协议 v1.0（英文版）
+│   ├── claude-protocol-v1-0.zh.md            # Claude 协议 v1.0（中文版）
+│   ├── claude-protocol-v2-0.zh.md            # Claude 协议 v2.0（中文版）
 │   └── claude-python-integration.zh.md       # Claude Python 集成指南
 ├── rules/                                      # 协议规则文档
-│   ├── cognitive-copilot-protocol-v6.3.en.md # 认知副驾协作协议 v6.3（英文版）
-│   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协作协议 v6.3（中文版）
-│   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协作协议 v7.3（中文版）
-│   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协作协议 v8.0（中文版）
-│   ├── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协作协议 v8.1（中文版）
-│   ├── cognitive-copilot-protocol-v9.0.zh.md # AxiomOS Cognitive Co-pilot 协议 v9.0（中文版）
-│   ├── cognitive-copilot-protocol-v9.1.zh.md # AxiomOS Cognitive Co-pilot 协议 v9.1（中文版）
-│   └── cognitive-copilot-protocol-v9.2.zh.md # AxiomOS Cognitive Co-pilot Protocol v9.2（中文版，最新版本）
+│   ├── cognitive-copilot-protocol-v6-3.en.md # 认知副驾协作协议 v6.3（英文版）
+│   ├── cognitive-copilot-protocol-v6-3.zh.md # 认知副驾协作协议 v6.3（中文版）
+│   ├── cognitive-copilot-protocol-v7-3.zh.md # 认知副驾协作协议 v7.3（中文版）
+│   ├── cognitive-copilot-protocol-v8-0.zh.md # 认知副驾协作协议 v8.0（中文版）
+│   ├── cognitive-copilot-protocol-v8-1.zh.md # 认知副驾协作协议 v8.1（中文版）
+│   ├── cognitive-copilot-protocol-v9-0.zh.md # AxiomOS Cognitive Co-pilot 协议 v9.0（中文版）
+│   ├── cognitive-copilot-protocol-v9-1.zh.md # AxiomOS Cognitive Co-pilot 协议 v9.1（中文版）
+│   └── cognitive-copilot-protocol-v9-2.zh.md # AxiomOS Cognitive Co-pilot Protocol v9.2（中文版，最新版本）
 ├── workflows/                                  # 工作流程文档
 │   ├── trae-workflow-v6a.zh.md               # TRAE 6A 工作流实践
 │   ├── trae-workflow-v7a.zh.md               # TRAE 7A 认知工作流
 │   └── trae-workflow-v7a-v2.zh.md            # TRAE 7A 认知工作流 v2.0
-├── references/                                 # 参考文档
+├── references/                                 # 参考文档和配置
 │   ├── mcp-tools-reference.md                # MCP 工具参考手册
 │   ├── mcp-config-template.json              # MCP 配置文件模板
 │   ├── mcp-config-guide.md                   # MCP 配置指南
 │   └── mcp.json                              # MCP 服务器配置文件
+├── guides/                                     # 用户指南
+│   └── user-prompt-guide.md                  # 用户提示词指南
+├── internal/                                   # 内部文档
+│   ├── prompt-optimization-guide.md          # Prompt 优化指南
+│   └── protocol-architect-guide.md           # 协议架构师指南
 ├── README.md                                   # 本文件
 └── RENAMING_LOG.md                             # 文件重命名日志
 ```

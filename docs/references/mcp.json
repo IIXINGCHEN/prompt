@@ -29,10 +29,14 @@
         ]
       },
       "chrome-mcp-server": {
-        "command": "node",
+        "command": "npx",
         "args": [
-          "C:\\Users\\admin\\AppData\\Local\\pnpm\\global\\5\\node_modules\\mcp-chrome-bridge\\dist\\mcp\\mcp-server-stdio.js"
-        ]
+          "-y",
+          "mcp-chrome-bridge"
+        ],
+        "env": {
+          "NODE_ENV": "production"
+        }
       },
       "Codebase MCP": {
         "command": "codebase-mcp",
@@ -41,13 +45,15 @@
         ]
       },
       "ast-aware-editor": {
-        "command": "uv",
+        "command": "npx",
         "args": [
-          "--directory",
-          "G:\\admin\\mcp\\ast-mcp-server",
-          "run",
-          "server.py"
-        ]
+          "-y",
+          "ast-aware-editor"
+        ],
+        "env": {
+          "NODE_ENV": "production",
+          "AST_SERVER_PATH": "${AST_SERVER_PATH:-./ast-mcp-server}"
+        }
       }
     }
   }
