@@ -8,26 +8,40 @@
 ## [Unreleased]
 
 ### Added
-- 添加了 AxiomOS 认知协处理器协议 v10.1 和 v10.2
+- 添加了 AxiomOS 认知协处理器协议完整版本系列（v10.0 - v10.3）
 - 添加了标准项目文件（.gitignore, CONTRIBUTING.md, CHANGELOG.md）
 - 创建了新的文档目录结构（docs/internal/, docs/guides/）
 
 ### Changed
 - 优化了项目文档结构和版本管理
 - 更新了所有文档中的版本信息和引用
+- 统一了文件命名规范，使用标准版本号格式
 - 重组了根目录文件结构，移动了 main.md, prompt.md, user.prompt.md 到合适位置
-- 统一了文件命名规范，使用 kebab-case 格式
 - 修复了 mcp.json 中的硬编码路径问题
 
 ### Fixed
 - 修复了版本号命名不一致的问题
 - 修复了配置文件中的绝对路径依赖
-- 修复了 README.md 中过时的仓库链接
+- 修复了 README.md 中的仓库链接和项目结构描述
+- 统一了所有文档中的文件名格式
+
+## [10.3.0] - 2024-12-XX
+
+### Added
+- AxiomOS 认知协处理器协议 v10.3 - AIprompt 代号版本
+- 重新设计的核心原则体系（AXIOM::PRINCIPLE）
+- 优化的命名空间和标识符系统
+- 增强的工作流程和工具集成
+
+### Changed
+- 全面重构的协议架构和命名规范
+- 优化的核心身份定义和使命描述
+- 改进的文档结构和可读性
 
 ## [10.2.0] - 2024-12-XX
 
 ### Added
-- AxiomOS 认知协处理器协议 v10.2 - Aegis+ 最新版本
+- AxiomOS 认知协处理器协议 v10.2 - Aegis+ 优化版本
 - 增强的工作流模式支持（Blueprint, QuickTask, Guardian, Debug, Spike, Deep_Audit）
 - 完整的命令与控制接口（C-CALL）
 - 动态指令集和个性化规则支持
@@ -47,6 +61,17 @@
 ### Changed
 - 升级的认知协处理器架构
 - 增强的安全性和生产就绪特性
+
+## [10.0.0] - 2024-12-XX
+
+### Added
+- AxiomOS 认知协处理器协议 v10.0 - Aegis+ 基础版本
+- 全新的协议架构设计
+- 认知协处理器核心框架
+
+### Changed
+- 重大版本升级到 v10.x 系列
+- 全面重构的协议体系
 
 ## [9.2.0] - 2024-12-XX
 
@@ -161,7 +186,9 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v10.2.0...HEAD
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v10.3.0...HEAD
+- [10.3.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.3.0
 - [10.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.2.0
 - [10.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.1.0
+- [10.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.0.0
 - [9.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v9.2.0

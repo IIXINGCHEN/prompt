@@ -89,8 +89,10 @@ docs/
 - **v9.0** - AxiomOS Cognitive Co-pilot 协议，全面重构版本
 - **v9.1** - AxiomOS Cognitive Co-pilot 协议，优化版本
 - **v9.2** - AxiomOS Cognitive Co-pilot Protocol，稳定版本
+- **v10.0** - AxiomOS 认知协处理器协议，Aegis+ 基础版本
 - **v10.1** - AxiomOS 认知协处理器协议，Aegis+ 增强版本
-- **v10.2** - AxiomOS 认知协处理器协议，Aegis+ 最新版本（推荐）
+- **v10.2** - AxiomOS 认知协处理器协议，Aegis+ 优化版本
+- **v10.3** - AxiomOS 认知协处理器协议，Aegis+ 最新版本（推荐）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
