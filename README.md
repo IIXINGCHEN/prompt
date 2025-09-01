@@ -1,8 +1,8 @@
 # AI 协作协议与工作流程框架
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/hoolhub-code/prompt.svg)](https://github.com/hoolhub-code/prompt/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/hoolhub-code/prompt.svg)](https://github.com/hoolhub-code/prompt/network)
+[![GitHub stars](https://img.shields.io/github/stars/IIXINGCHEN/prompt.svg)](https://github.com/IIXINGCHEN/prompt/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/IIXINGCHEN/prompt.svg)](https://github.com/IIXINGCHEN/prompt/network)
 
 一个专为 AI 助手（特别是 Claude）设计的结构化协作协议和工作流程框架，旨在提升人机协作效率和代码质量。
 
@@ -185,8 +185,8 @@ cp docs/references/mcp-config-template.json ~/.config/claude/claude_desktop_conf
 
 如有问题或建议，请通过以下方式联系：
 
-- 创建 [Issue](https://github.com/hoolhub-code/prompt/issues)
-- 提交 [Pull Request](https://github.com/hoolhub-code/prompt/pulls)
+- 创建 [Issue](https://github.com/IIXINGCHEN/prompt/issues)
+- 提交 [Pull Request](https://github.com/IIXINGCHEN/prompt/pulls)
 
 ---
 

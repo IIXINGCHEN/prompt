@@ -13,8 +13,8 @@
 - 创建了新的文档目录结构（docs/internal/, docs/guides/）
 
 ### Changed
-- 迁移仓库到新的组织 hoolhub-code/prompt
-- 更新了所有文档中的仓库链接和引用
+- 优化了项目文档结构和版本管理
+- 更新了所有文档中的版本信息和引用
 - 重组了根目录文件结构，移动了 main.md, prompt.md, user.prompt.md 到合适位置
 - 统一了文件命名规范，使用 kebab-case 格式
 - 修复了 mcp.json 中的硬编码路径问题
@@ -161,7 +161,7 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/hoolhub-code/prompt/compare/v10.2.0...HEAD
-- [10.2.0]: https://github.com/hoolhub-code/prompt/releases/tag/v10.2.0
-- [10.1.0]: https://github.com/hoolhub-code/prompt/releases/tag/v10.1.0
-- [9.2.0]: https://github.com/hoolhub-code/prompt/releases/tag/v9.2.0
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v10.2.0...HEAD
+- [10.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.2.0
+- [10.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.1.0
+- [9.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v9.2.0

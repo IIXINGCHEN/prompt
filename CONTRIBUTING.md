@@ -8,7 +8,7 @@
 
 如果您发现了 bug 或有功能建议，请：
 
-1. 检查 [Issues](https://github.com/hoolhub-code/prompt/issues) 确保问题未被报告
+1. 检查 [Issues](https://github.com/IIXINGCHEN/prompt/issues) 确保问题未被报告
 2. 使用清晰的标题和详细的描述创建新 issue
 3. 包含复现步骤（如果是 bug）
 4. 添加相关的标签
@@ -117,7 +117,7 @@ docs/
 如果您在贡献过程中遇到问题：
 
 1. 查看 [文档](docs/)
-2. 搜索现有的 [Issues](https://github.com/hoolhub-code/prompt/issues)
+2. 搜索现有的 [Issues](https://github.com/IIXINGCHEN/prompt/issues)
 3. 创建新的 issue 寻求帮助
 4. 加入我们的讨论区
 
