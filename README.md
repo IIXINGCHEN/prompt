@@ -1,8 +1,8 @@
 # AI 协作协议与工作流程框架
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/IIXINGCHEN/prompt.svg)](https://github.com/IIXINGCHEN/prompt/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/IIXINGCHEN/prompt.svg)](https://github.com/IIXINGCHEN/prompt/network)
+[![GitHub stars](https://img.shields.io/github/stars/hoolhub-code/prompt.svg)](https://github.com/hoolhub-code/prompt/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/hoolhub-code/prompt.svg)](https://github.com/hoolhub-code/prompt/network)
 
 一个专为 AI 助手（特别是 Claude）设计的结构化协作协议和工作流程框架，旨在提升人机协作效率和代码质量。
 
@@ -67,7 +67,9 @@ prompt/
 │   │   ├── cognitive-copilot-protocol-v8-1.zh.md # 认知副驾协议 v8.1（中文版）
 │   │   ├── cognitive-copilot-protocol-v9-0.zh.md # 认知副驾协议 v9.0（中文版）
 │   │   ├── cognitive-copilot-protocol-v9-1.zh.md # 认知副驾协议 v9.1（中文版）
-│   │   └── cognitive-copilot-protocol-v9-2.zh.md # 认知副驾协议 v9.2（中文版，最新版本）
+│   │   ├── cognitive-copilot-protocol-v9-2.zh.md # 认知副驾协议 v9.2（中文版）
+│   │   ├── cognitive-copilot-protocol-v10-1.zh.md # 认知副驾协议 v10.1（中文版）
+│   │   └── cognitive-copilot-protocol-v10-2.zh.md # 认知副驾协议 v10.2（中文版，最新版本）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
 │   │   ├── trae-workflow-v7a.zh.md            # TRAE 7A 工作流
@@ -109,7 +111,9 @@ prompt/
 - **v8.1**: 完善功能和性能
 - **v9.0**: AxiomOS Cognitive Co-pilot 协议，全面重构版本
 - **v9.1**: AxiomOS Cognitive Co-pilot 协议，优化版本
-- **v9.2**: AxiomOS Cognitive Co-pilot Protocol，最新版本（推荐）
+- **v9.2**: AxiomOS Cognitive Co-pilot Protocol，稳定版本
+- **v10.1**: AxiomOS 认知协处理器协议，Aegis+ 增强版本
+- **v10.2**: AxiomOS 认知协处理器协议，Aegis+ 最新版本（推荐）
 
 ### 2. 配置 MCP 工具
 
@@ -181,8 +185,8 @@ cp docs/references/mcp-config-template.json ~/.config/claude/claude_desktop_conf
 
 如有问题或建议，请通过以下方式联系：
 
-- 创建 [Issue](https://github.com/IIXINGCHEN/prompt/issues)
-- 提交 [Pull Request](https://github.com/IIXINGCHEN/prompt/pulls)
+- 创建 [Issue](https://github.com/hoolhub-code/prompt/issues)
+- 提交 [Pull Request](https://github.com/hoolhub-code/prompt/pulls)
 
 ---
 

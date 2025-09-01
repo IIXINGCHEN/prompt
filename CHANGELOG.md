@@ -8,10 +8,13 @@
 ## [Unreleased]
 
 ### Added
+- 添加了 AxiomOS 认知协处理器协议 v10.1 和 v10.2
 - 添加了标准项目文件（.gitignore, CONTRIBUTING.md, CHANGELOG.md）
 - 创建了新的文档目录结构（docs/internal/, docs/guides/）
 
 ### Changed
+- 迁移仓库到新的组织 hoolhub-code/prompt
+- 更新了所有文档中的仓库链接和引用
 - 重组了根目录文件结构，移动了 main.md, prompt.md, user.prompt.md 到合适位置
 - 统一了文件命名规范，使用 kebab-case 格式
 - 修复了 mcp.json 中的硬编码路径问题
@@ -19,6 +22,31 @@
 ### Fixed
 - 修复了版本号命名不一致的问题
 - 修复了配置文件中的绝对路径依赖
+- 修复了 README.md 中过时的仓库链接
+
+## [10.2.0] - 2024-12-XX
+
+### Added
+- AxiomOS 认知协处理器协议 v10.2 - Aegis+ 最新版本
+- 增强的工作流模式支持（Blueprint, QuickTask, Guardian, Debug, Spike, Deep_Audit）
+- 完整的命令与控制接口（C-CALL）
+- 动态指令集和个性化规则支持
+
+### Changed
+- 全面重构的协议架构
+- 优化的质量门控和安全机制
+- 改进的交互协议和状态报告
+
+## [10.1.0] - 2024-12-XX
+
+### Added
+- AxiomOS 认知协处理器协议 v10.1 - Aegis+ 增强版本
+- 新的核心原则和指令体系
+- MCP 工具集成框架
+
+### Changed
+- 升级的认知协处理器架构
+- 增强的安全性和生产就绪特性
 
 ## [9.2.0] - 2024-12-XX
 
@@ -133,5 +161,7 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v9.2.0...HEAD
-- [9.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v9.2.0
+- [Unreleased]: https://github.com/hoolhub-code/prompt/compare/v10.2.0...HEAD
+- [10.2.0]: https://github.com/hoolhub-code/prompt/releases/tag/v10.2.0
+- [10.1.0]: https://github.com/hoolhub-code/prompt/releases/tag/v10.1.0
+- [9.2.0]: https://github.com/hoolhub-code/prompt/releases/tag/v9.2.0
