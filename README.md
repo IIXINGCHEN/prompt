@@ -17,7 +17,7 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **多版本支持**: 从 v2.4 到 v6.1 的完整版本历史
+- **多版本支持**: 从 v1.0 到 v10.3 的完整版本历史
 - **结构化协作**: 定义了清晰的协作原则和工作流程
 - **质量保证**: 内置质量门控和验收标准
 - **国际化支持**: 提供中英文双语版本
@@ -29,8 +29,8 @@
 - **文档驱动**: 每个阶段都有对应的文档产出
 
 ### 🧠 认知副驾协议
-- **版本演进**: 从 v6.3 到 v8.1 的持续优化
-- **智能协作**: Claude 4 Sonnet 认知副驾协作协议
+- **版本演进**: 从 v6.3 到 v10.3 的持续优化
+- **智能协作**: AxiomOS 认知协处理器协议
 - **状态管理**: 管理状态、预测影响的认知放大器
 - **双语支持**: 提供中英文版本的协议文档
 
@@ -71,7 +71,8 @@ prompt/
 │   │   ├── cognitive-copilot-protocol-v10.0.zh.md # 认知副驾协议 v10.0（中文版）
 │   │   ├── cognitive-copilot-protocol-v10.1.zh.md # 认知副驾协议 v10.1（中文版）
 │   │   ├── cognitive-copilot-protocol-v10.2.zh.md # 认知副驾协议 v10.2（中文版）
-│   │   └── cognitive-copilot-protocol-v10.3.md   # 认知副驾协议 v10.3（最新版本）
+│   │   ├── cognitive-copilot-protocol-v10.3.md   # 认知副驾协议 v10.3（中文版）
+│   │   └── cognitive-copilot-protocol-v10.5.md   # 认知副驾协议 v10.5（最新版本）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
 │   │   ├── trae-workflow-v7a.zh.md            # TRAE 7A 工作流
@@ -117,7 +118,8 @@ prompt/
 - **v10.0**: AxiomOS 认知协处理器协议，Aegis+ 基础版本
 - **v10.1**: AxiomOS 认知协处理器协议，Aegis+ 增强版本
 - **v10.2**: AxiomOS 认知协处理器协议，Aegis+ 优化版本
-- **v10.3**: AxiomOS 认知协处理器协议，Aegis+ 最新版本（推荐）
+- **v10.3**: AxiomOS 认知协处理器协议，AIprompt 代号版本
+- **v10.5**: AxiomOS 认知协处理器协议，Conductor 最新版本（推荐）
 
 ### 2. 配置 MCP 工具
 

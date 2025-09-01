@@ -7,16 +7,28 @@
 ```
 docs/
 ├── configs/                                    # 系统配置文档
-│   ├── axiom-os-v1-0.zh.md                   # AxiomOS 版本 1.0 配置（基础版本）
-│   ├── axiom-os-v3-7-2.zh.md                 # AxiomOS 版本 3.7.2 配置（最新版本）
-│   ├── axiom-os-v6-1.en.md                   # AxiomOS 版本 6.1 配置（英文版）
-│   ├── axiom-os-v6-1.zh.md                   # AxiomOS 版本 6.1 配置（中文版）
-│   ├── claude-protocol-v1-0.en.md            # Claude 协议 v1.0（英文版）
-│   ├── claude-protocol-v1-0.zh.md            # Claude 协议 v1.0（中文版）
-│   ├── claude-protocol-v2-0.zh.md            # Claude 协议 v2.0（中文版）
+│   ├── axiom-os-v1.0.zh.md                   # AxiomOS 版本 1.0 配置（基础版本）
+│   ├── axiom-os-v3-7-2.zh.md                 # AxiomOS 版本 3.7.2 配置
+│   ├── axiom-os-v6.1.en.md                   # AxiomOS 版本 6.1 配置（英文版）
+│   ├── axiom-os-v6.1.zh.md                   # AxiomOS 版本 6.1 配置（中文版）
+│   ├── claude-protocol-v1.0.en.md            # Claude 协议 v1.0（英文版）
+│   ├── claude-protocol-v1.0.zh.md            # Claude 协议 v1.0（中文版）
+│   ├── claude-protocol-v2.0.zh.md            # Claude 协议 v2.0（中文版）
 │   └── claude-python-integration.zh.md       # Claude Python 集成指南
 ├── rules/                                      # 协议规则文档
-│   ├── cognitive-copilot-protocol-v6-3.en.md # 认知副驾协作协议 v6.3（英文版）
+│   ├── cognitive-copilot-protocol-v6.3.en.md # 认知副驾协作协议 v6.3（英文版）
+│   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协作协议 v6.3（中文版）
+│   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协作协议 v7.3（中文版）
+│   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协作协议 v8.0（中文版）
+│   ├── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协作协议 v8.1（中文版）
+│   ├── cognitive-copilot-protocol-v9.0.zh.md # 认知副驾协作协议 v9.0（中文版）
+│   ├── cognitive-copilot-protocol-v9.1.zh.md # 认知副驾协作协议 v9.1（中文版）
+│   ├── cognitive-copilot-protocol-v9.2.zh.md # 认知副驾协作协议 v9.2（中文版）
+│   ├── cognitive-copilot-protocol-v10.0.zh.md # 认知副驾协作协议 v10.0（中文版）
+│   ├── cognitive-copilot-protocol-v10.1.zh.md # 认知副驾协作协议 v10.1（中文版）
+│   ├── cognitive-copilot-protocol-v10.2.zh.md # 认知副驾协作协议 v10.2（中文版）
+│   ├── cognitive-copilot-protocol-v10.3.md   # 认知副驾协作协议 v10.3（中文版）
+│   └── cognitive-copilot-protocol-v10.5.md   # 认知副驾协作协议 v10.5（最新版本）
 │   ├── cognitive-copilot-protocol-v6-3.zh.md # 认知副驾协作协议 v6.3（中文版）
 │   ├── cognitive-copilot-protocol-v7-3.zh.md # 认知副驾协作协议 v7.3（中文版）
 │   ├── cognitive-copilot-protocol-v8-0.zh.md # 认知副驾协作协议 v8.0（中文版）
@@ -92,7 +104,8 @@ docs/
 - **v10.0** - AxiomOS 认知协处理器协议，Aegis+ 基础版本
 - **v10.1** - AxiomOS 认知协处理器协议，Aegis+ 增强版本
 - **v10.2** - AxiomOS 认知协处理器协议，Aegis+ 优化版本
-- **v10.3** - AxiomOS 认知协处理器协议，Aegis+ 最新版本（推荐）
+- **v10.3** - AxiomOS 认知协处理器协议，AIprompt 代号版本
+- **v10.5** - AxiomOS 认知协处理器协议，Conductor 最新版本（推荐）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）

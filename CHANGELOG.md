@@ -8,7 +8,7 @@
 ## [Unreleased]
 
 ### Added
-- 添加了 AxiomOS 认知协处理器协议完整版本系列（v10.0 - v10.3）
+- 添加了 AxiomOS 认知协处理器协议完整版本系列（v10.0 - v10.5）
 - 添加了标准项目文件（.gitignore, CONTRIBUTING.md, CHANGELOG.md）
 - 创建了新的文档目录结构（docs/internal/, docs/guides/）
 
@@ -24,6 +24,19 @@
 - 修复了配置文件中的绝对路径依赖
 - 修复了 README.md 中的仓库链接和项目结构描述
 - 统一了所有文档中的文件名格式
+
+## [10.5.0] - 2024-12-XX
+
+### Added
+- AxiomOS 认知协处理器协议 v10.5 - Conductor 代号版本
+- 完整的外部协处理器集成框架（ECIF）
+- 动态能力发现和MCP委托策略
+- 增强的自我修正和适应学习机制
+
+### Changed
+- 全面重构的协议架构和工具集成
+- 优化的交互协议和状态管理
+- 改进的质量门控和安全机制
 
 ## [10.3.0] - 2024-12-XX
 
@@ -186,7 +199,8 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v10.3.0...HEAD
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v10.5.0...HEAD
+- [10.5.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.5.0
 - [10.3.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.3.0
 - [10.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.2.0
 - [10.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v10.1.0
