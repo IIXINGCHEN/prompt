@@ -17,22 +17,22 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **多版本支持**: 从 v1.0 到 v10.3 的完整版本历史
+- **最新版本**: v12.0 Keystone-Enforced 统一协议
 - **结构化协作**: 定义了清晰的协作原则和工作流程
 - **质量保证**: 内置质量门控和验收标准
-- **国际化支持**: 提供中英文双语版本
+- **生产就绪**: 专为专业开发团队设计的企业级协议
 
-### 🔄 TRAE 工作流程
+### 🔄 SEEP 工作流程
 - **6A 工作流**: Align → Architect → Atomize → Approve → Act → Assess
-- **7A 认知工作流**: Context → Specify → Architect → Atomize → Approve → Act → Assess
+- **SEEP 协议**: 安全工程与演进协议 (Secure Engineering & Evolution Protocol)
 - **任务分解**: 将复杂任务分解为可执行的原子任务
 - **文档驱动**: 每个阶段都有对应的文档产出
 
-### 🧠 认知副驾协议
-- **版本演进**: 从 v6.3 到 v10.3 的持续优化
-- **智能协作**: AxiomOS 认知协处理器协议
-- **状态管理**: 管理状态、预测影响的认知放大器
-- **双语支持**: 提供中英文版本的协议文档
+### 🧠 AxiomOS 统一协议
+- **v11.0**: Conductor - 系统协议与SEEP实现
+- **v12.0**: Keystone-Enforced - 统一协议（推荐）
+- **智能协作**: 首席工程子系统认知放大器
+- **生产级**: 专为企业级开发团队设计
 
 ### 🛠️ MCP 工具集成
 - **完整工具清单**: 涵盖分析、任务管理、知识查询等多个领域
@@ -51,32 +51,15 @@
 prompt/
 ├── docs/                                       # 文档目录
 │   ├── configs/                                # 系统配置文档
-│   │   ├── axiom-os-v1.0.zh.md                # AxiomOS 版本 2.4 配置（标记为v1.0）
-│   │   ├── axiom-os-v3-7-2.zh.md              # AxiomOS 版本 3.7.2 配置
-│   │   ├── axiom-os-v6.1.en.md                # AxiomOS 版本 6.1 配置（英文版）
-│   │   ├── axiom-os-v6.1.zh.md                # AxiomOS 版本 6.1 配置（中文版）
-│   │   ├── claude-protocol-v1.0.en.md         # Claude 协议 v1.0（英文版）
-│   │   ├── claude-protocol-v1.0.zh.md         # Claude 协议 v1.0（中文版）
+│   │   ├── axiom-os-v1.0.zh.md                # AxiomOS 版本 1.0 配置（基础版本）
 │   │   ├── claude-protocol-v2.0.zh.md         # Claude 协议 v2.0（中文版）
 │   │   └── claude-python-integration.zh.md    # Claude Python 集成指南
 │   ├── rules/                                  # 协议规则文档
-│   │   ├── cognitive-copilot-protocol-v6.3.en.md # 认知副驾协议 v6.3（英文版）
-│   │   ├── cognitive-copilot-protocol-v6.3.zh.md # 认知副驾协议 v6.3（中文版）
-│   │   ├── cognitive-copilot-protocol-v7.3.zh.md # 认知副驾协议 v7.3（中文版）
-│   │   ├── cognitive-copilot-protocol-v8.0.zh.md # 认知副驾协议 v8.0（中文版）
-│   │   ├── cognitive-copilot-protocol-v8.1.zh.md # 认知副驾协议 v8.1（中文版）
-│   │   ├── cognitive-copilot-protocol-v9.0.zh.md # 认知副驾协议 v9.0（中文版）
-│   │   ├── cognitive-copilot-protocol-v9.1.zh.md # 认知副驾协议 v9.1（中文版）
-│   │   ├── cognitive-copilot-protocol-v9.2.zh.md # 认知副驾协议 v9.2（中文版）
-│   │   ├── cognitive-copilot-protocol-v10.0.zh.md # 认知副驾协议 v10.0（中文版）
-│   │   ├── cognitive-copilot-protocol-v10.1.zh.md # 认知副驾协议 v10.1（中文版）
-│   │   ├── cognitive-copilot-protocol-v10.2.zh.md # 认知副驾协议 v10.2（中文版）
-│   │   ├── cognitive-copilot-protocol-v10.3.md   # 认知副驾协议 v10.3（中文版）
-│   │   └── cognitive-copilot-protocol-v10.5.md   # 认知副驾协议 v10.5（最新版本）
+│   │   ├── cognitive-copilot-protocol-v11.0.md  # AxiomOS 系统协议 v11.0 - Conductor
+│   │   └── cognitive-copilot-protocol-v12.0.md  # AxiomOS 统一协议 v12.0 - Keystone（最新版本）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
-│   │   ├── trae-workflow-v7a.zh.md            # TRAE 7A 工作流
-│   │   └── trae-workflow-v7a-v2.zh.md         # TRAE 7A 工作流 v2
+│   │   └── trae-workflow-v7a-v3.md            # SEEP 安全工程与演进协议 v3.0
 │   ├── references/                             # 参考文档和配置
 │   │   ├── mcp-tools-reference.md             # MCP 工具参考手册
 │   │   ├── mcp-config-template.json           # MCP 配置文件模板
@@ -102,24 +85,13 @@ prompt/
 
 根据您的需求选择合适的协议版本：
 
-**AxiomOS 系统配置**：
-- **v2.4**: 基础版本（标记为v1.0），包含核心协议和基础工作流
-- **v3.7.2**: 优化版本，改进了蓝图协议和质量门控
-- **v6.1**: 国际化版本，支持中英文双语配置（推荐）
+**AxiomOS 统一协议**：
+- **v11.0**: Conductor - 系统协议与SEEP实现协议
+- **v12.0**: Keystone-Enforced - 统一协议（推荐）
 
-**认知副驾协议**：
-- **v6.3**: 基础认知副驾协议
-- **v7.3**: 增强版本，优化协作流程
-- **v8.0**: 重大更新，增强智能化程度
-- **v8.1**: 完善功能和性能
-- **v9.0**: AxiomOS Cognitive Co-pilot 协议，全面重构版本
-- **v9.1**: AxiomOS Cognitive Co-pilot 协议，优化版本
-- **v9.2**: AxiomOS Cognitive Co-pilot Protocol，稳定版本
-- **v10.0**: AxiomOS 认知协处理器协议，Aegis+ 基础版本
-- **v10.1**: AxiomOS 认知协处理器协议，Aegis+ 增强版本
-- **v10.2**: AxiomOS 认知协处理器协议，Aegis+ 优化版本
-- **v10.3**: AxiomOS 认知协处理器协议，AIprompt 代号版本
-- **v10.5**: AxiomOS 认知协处理器协议，Conductor 最新版本（推荐）
+**工作流程协议**：
+- **6A 工作流**: 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
+- **SEEP v3.0**: 安全工程与演进协议（Secure Engineering & Evolution Protocol）
 
 ### 2. 配置 MCP 工具
 
@@ -134,11 +106,10 @@ cp docs/references/mcp-config-template.json ~/.config/claude/claude_desktop_conf
 
 ### 3. 应用工作流程
 
-选择适合的 TRAE 工作流程：
+选择适合的工作流程：
 
 - **6A 工作流**: 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
-- **7A 工作流**: 七阶段认知工作流程（Context → Specify → Architect → Atomize → Approve → Act → Assess）
-- **7A v2.0**: 优化版本，增强了质量门控和文档驱动机制
+- **SEEP v3.0**: 安全工程与演进协议，专为企业级开发设计
 
 ## 📖 使用指南
 
@@ -150,8 +121,8 @@ cp docs/references/mcp-config-template.json ~/.config/claude/claude_desktop_conf
 
 ### 工作流程执行
 
-1. **启动流程**: 使用 `CALL:[Blueprint.Initiate(任务名)]` 启动蓝图协议
-2. **阶段执行**: 按照 7A 流程依次执行各个阶段
+1. **启动流程**: 使用 `[AXIOM::WORKFLOW::SEEP]` 启动安全工程协议
+2. **阶段执行**: 按照 SEEP 流程依次执行各个阶段
 3. **质量门控**: 每个阶段都要通过相应的质量检查
 
 ### MCP 工具使用
