@@ -46,6 +46,25 @@
 | `trae-workflow-7a.md` | `trae-workflow-v7a.zh.md` | 规范版本号和添加语言标识 |
 | `trae-workflow-7a-v2.md` | `trae-workflow-v7a-v2.zh.md` | 添加语言标识 |
 
+### RIPER/ 目录 (2024-12-XX 新增)
+| 原文件名 | 新文件名 | 说明 |
+|---------|---------|------|
+| `001.md` | `riper-protocol-v2.1.md` | 规范化命名，添加版本和协议类型 |
+| `002.md` | `nexus-protocol-v3.0.md` | 规范化命名，添加版本和协议类型 |
+| - | `axiom-os-integration-v4.0.md` | 新创建的 AxiomOS 集成协议 |
+
+### user/ 目录 (2024-12-XX 新增)
+| 原文件名 | 新文件名 | 说明 |
+|---------|---------|------|
+| `001.md` | `user-guide-v1.md` | 规范化命名，添加描述性名称和版本 |
+| `002.md` | `user-guide-v2.md` | 规范化命名，添加描述性名称和版本 |
+
+### guides/ 目录 (2024-12-XX 新增)
+| 原文件名 | 新文件名 | 说明 |
+|---------|---------|------|
+| `user-prompt-01.md` | `user-prompt-guide-v1.md` | 规范化命名，统一版本格式 |
+| `user-prompt-02.md` | `user-prompt-guide-v2.md` | 规范化命名，统一版本格式 |
+
 ## ✅ 重命名效果
 
 ### 改进点

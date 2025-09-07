@@ -1,6 +1,6 @@
 # 文档目录
 
-本目录包含 AI 协作协议与工作流程框架的所有配置文档、工作流程文档和参考资料。
+本目录包含 AxiomOS 动态协议框架的所有配置文档、执行协议、工作流程文档和参考资料。
 
 ## 📁 目录结构
 
@@ -10,56 +10,75 @@ docs/
 │   ├── axiom-os-v1.0.zh.md                   # AxiomOS 版本 1.0 配置（基础版本）
 │   ├── claude-protocol-v2.0.zh.md            # Claude 协议 v2.0（中文版）
 │   └── claude-python-integration.zh.md       # Claude Python 集成指南
-├── rules/                                      # 协议规则文档
-│   ├── cognitive-copilot-protocol-v11.0.md   # AxiomOS 系统协议 v11.0 - Conductor
-│   ├── cognitive-copilot-protocol-v12.0.md   # AxiomOS 统一协议 v12.0 - Keystone
-│   ├── cognitive-copilot-protocol-v13.2.md   # AxiomOS v13.2 - Production-Grade Hardening
-│   └── cognitive-copilot-protocol-v14.0.md   # AxiomOS v14.0 - Dynamic Protocol（最新版本）
-├── workflows/                                  # 工作流程文档
-│   ├── trae-workflow-v6a.zh.md               # TRAE 6A 工作流实践
-│   └── trae-workflow-v7a-v3.md               # SEEP 安全工程与演进协议 v3.0
+├── guides/                                     # 用户指南文档
+│   ├── user-prompt-guide-v1.md              # 用户提示指南 v1
+│   ├── user-prompt-guide-v2.md              # 用户提示指南 v2
+│   └── user-prompt-guide.md                  # 用户提示完整指南
+├── internal/                                   # 内部开发文档
+│   ├── prompt-optimization-guide.md          # 提示优化指南
+│   └── protocol-architect-guide.md           # 协议架构师指南
 ├── references/                                 # 参考文档和配置
 │   ├── mcp-tools-reference.md                # MCP 工具参考手册
 │   ├── mcp-config-template.json              # MCP 配置文件模板
 │   ├── mcp-config-guide.md                   # MCP 配置指南
 │   └── mcp.json                              # MCP 服务器配置文件
-├── guides/                                     # 用户指南
-│   └── user-prompt-guide.md                  # 用户提示词指南
-├── internal/                                   # 内部文档
-│   ├── prompt-optimization-guide.md          # Prompt 优化指南
-│   └── protocol-architect-guide.md           # 协议架构师指南
+├── RIPER/                                      # RIPER 执行框架协议
+│   ├── riper-protocol-v2.1.md               # AGENT-OS v2.1 - RIPER+ Protocol
+│   ├── nexus-protocol-v3.0.md               # AGENT-OS v3.0 - Nexus Protocol
+│   └── axiom-os-integration-v4.0.md         # AGENT-OS v4.0 - AxiomOS Integration（最新版本）
+├── rules/                                      # 协议规则文档
+│   ├── cognitive-copilot-protocol-v11.0.md   # AxiomOS 系统协议 v11.0 - Conductor
+│   ├── cognitive-copilot-protocol-v12.0.md   # AxiomOS 统一协议 v12.0 - Keystone
+│   ├── cognitive-copilot-protocol-v13.2.md   # AxiomOS v13.2 - Production-Grade Hardening
+│   └── cognitive-copilot-protocol-v14.0.md   # AxiomOS v14.0 - Dynamic Protocol（最新版本）
+├── user/                                       # 用户相关文档
+│   ├── user-guide-v1.md                     # 用户文档 v1
+│   └── user-guide-v2.md                     # 用户文档 v2
+├── workflows/                                  # 工作流程文档
+│   ├── trae-workflow-v6.md                   # TRAE 6A 工作流配置
+│   ├── trae-workflow-v7-v3.md               # TRAE 7A 工作流 v3
+│   └── trae-workflow-v7-v4.md               # TRAE 7A 工作流 v4（最新版本）
 ├── README.md                                   # 本文件
 └── RENAMING_LOG.md                             # 文件重命名日志
 ```
 
 ## 📋 文档说明
 
-### 配置文档 (configs/)
-- **axiom-os-v1.0.zh.md** - AxiomOS 系统版本 1.0 的完整配置文档（基础版本，包含核心协议和工作流）
-- **axiom-os-v3.7.2.zh.md** - AxiomOS 系统版本 3.7.2 的完整配置文档（最新版本，优化蓝图协议和质量门控）
-- **axiom-os-v6.1.en.md** - AxiomOS 版本 6.1 配置文档（英文版）
-- **axiom-os-v6.1.zh.md** - AxiomOS 版本 6.1 配置文档（中文版）
-- **claude-protocol-v1.0.en.md** - Claude 协作协议 v1.0（英文版）
-- **claude-protocol-v1.0.zh.md** - Claude 协作协议 v1.0（中文版）
+### 🔧 配置文档 (configs/)
+- **axiom-os-v1.0.zh.md** - AxiomOS 系统版本 1.0 的完整配置文档（基础版本）
 - **claude-protocol-v2.0.zh.md** - Claude 协作协议 v2.0（中文版）
 - **claude-python-integration.zh.md** - Claude Python 集成指南
 
-### 协议规则文档 (rules/)
-- **cognitive-copilot-protocol-v6.3.en.md** - Claude 4 Sonnet 认知副驾协作协议 v6.3（英文版）
-- **cognitive-copilot-protocol-v6.3.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v6.3（中文版）
-- **cognitive-copilot-protocol-v7.3.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v7.3（中文版）
-- **cognitive-copilot-protocol-v8.0.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.0（中文版）
-- **cognitive-copilot-protocol-v8.1.zh.md** - Claude 4 Sonnet 认知副驾协作协议 v8.1（中文版）
-- **cognitive-copilot-protocol-v9.0.zh.md** - AxiomOS Cognitive Co-pilot 协议 v9.0（中文版）
-- **cognitive-copilot-protocol-v9.1.zh.md** - AxiomOS Cognitive Co-pilot 协议 v9.1（中文版）
-- **cognitive-copilot-protocol-v9.2.zh.md** - AxiomOS Cognitive Co-pilot Protocol v9.2（中文版，最新版本）
+### 📚 用户指南 (guides/)
+- **user-prompt-guide-v1.md** - 用户提示指南 v1
+- **user-prompt-guide-v2.md** - 用户提示指南 v2
+- **user-prompt-guide.md** - 用户提示完整指南
 
-### 工作流程文档 (workflows/)
-- **trae-workflow-v6a.zh.md** - TRAE 6A 工作流配置与实践经验（适合中等复杂度任务）
-- **trae-workflow-v7a.zh.md** - TRAE 7A 认知工作流程（适合复杂系统开发任务）
-- **trae-workflow-v7a-v2.zh.md** - TRAE 7A 认知工作流程 v2.0（优化版本）
+### 🔒 内部文档 (internal/)
+- **prompt-optimization-guide.md** - 提示优化指南
+- **protocol-architect-guide.md** - 协议架构师指南
 
-### 参考文档 (references/)
+### 🚀 RIPER 执行框架 (RIPER/)
+- **riper-protocol-v2.1.md** - AGENT-OS v2.1: RIPER+ Protocol for Elite Task Execution
+- **nexus-protocol-v3.0.md** - AGENT-OS v3.0: Nexus Protocol for Elite Autonomous Task Execution
+- **axiom-os-integration-v4.0.md** - AGENT-OS v4.0: AxiomOS Integration Protocol（最新版本，推荐）
+
+### 🧠 协议规则文档 (rules/)
+- **cognitive-copilot-protocol-v11.0.md** - AxiomOS 系统协议 v11.0 - Conductor
+- **cognitive-copilot-protocol-v12.0.md** - AxiomOS 统一协议 v12.0 - Keystone
+- **cognitive-copilot-protocol-v13.2.md** - AxiomOS v13.2 - Production-Grade Hardening
+- **cognitive-copilot-protocol-v14.0.md** - AxiomOS v14.0 - Dynamic Protocol（最新版本，推荐）
+
+### 👤 用户文档 (user/)
+- **user-guide-v1.md** - 用户文档 v1
+- **user-guide-v2.md** - 用户文档 v2
+
+### 🔄 工作流程文档 (workflows/)
+- **trae-workflow-v6.md** - TRAE 6A 工作流配置（适合中等复杂度任务）
+- **trae-workflow-v7-v3.md** - TRAE 7A 工作流 v3（适合复杂系统开发任务）
+- **trae-workflow-v7-v4.md** - TRAE 7A 工作流 v4（最新版本，推荐）
+
+### 📖 参考文档 (references/)
 - **mcp-tools-reference.md** - MCP 工具参考手册：包含所有 Model Context Protocol 工具的详细信息和官方仓库链接
 - **mcp-config-template.json** - MCP 配置文件模板：完整的 JSON 格式配置文件，包含所有工具配置
 - **mcp-config-guide.md** - MCP 配置指南：详细的配置说明、安全建议和故障排除指南
