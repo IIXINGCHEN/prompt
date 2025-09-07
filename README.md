@@ -17,10 +17,10 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **最新版本**: v12.0 Keystone-Enforced 统一协议
-- **结构化协作**: 定义了清晰的协作原则和工作流程
-- **质量保证**: 内置质量门控和验收标准
-- **生产就绪**: 专为专业开发团队设计的企业级协议
+- **最新版本**: v14.0 Dynamic Protocol & Generative Mandate
+- **动态协议**: 支持自适应学习和协议版本演进
+- **生成式使命**: 动态生成任务导向的使命授权
+- **企业级**: 专为顶尖工程组织设计的认知架构师协议
 
 ### 🔄 SEEP 工作流程
 - **6A 工作流**: Align → Architect → Atomize → Approve → Act → Assess
@@ -28,11 +28,12 @@
 - **任务分解**: 将复杂任务分解为可执行的原子任务
 - **文档驱动**: 每个阶段都有对应的文档产出
 
-### 🧠 AxiomOS 统一协议
+### 🧠 AxiomOS 动态协议
 - **v11.0**: Conductor - 系统协议与SEEP实现
-- **v12.0**: Keystone-Enforced - 统一协议（推荐）
-- **智能协作**: 首席工程子系统认知放大器
-- **生产级**: 专为企业级开发团队设计
+- **v12.0**: Keystone-Enforced - 统一协议
+- **v13.2**: Production-Grade Hardening - 生产级强化
+- **v14.0**: Dynamic Protocol & Generative Mandate（推荐）
+- **认知架构师**: 首席领域架构师与预测性SRE混合体
 
 ### 🛠️ MCP 工具集成
 - **完整工具清单**: 涵盖分析、任务管理、知识查询等多个领域
@@ -56,7 +57,9 @@ prompt/
 │   │   └── claude-python-integration.zh.md    # Claude Python 集成指南
 │   ├── rules/                                  # 协议规则文档
 │   │   ├── cognitive-copilot-protocol-v11.0.md  # AxiomOS 系统协议 v11.0 - Conductor
-│   │   └── cognitive-copilot-protocol-v12.0.md  # AxiomOS 统一协议 v12.0 - Keystone（最新版本）
+│   │   ├── cognitive-copilot-protocol-v12.0.md  # AxiomOS 统一协议 v12.0 - Keystone
+│   │   ├── cognitive-copilot-protocol-v13.2.md  # AxiomOS v13.2 - Production-Grade Hardening
+│   │   └── cognitive-copilot-protocol-v14.0.md  # AxiomOS v14.0 - Dynamic Protocol（最新版本）
 │   ├── workflows/                              # 工作流程文档
 │   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
 │   │   └── trae-workflow-v7a-v3.md            # SEEP 安全工程与演进协议 v3.0
@@ -85,13 +88,17 @@ prompt/
 
 根据您的需求选择合适的协议版本：
 
-**AxiomOS 统一协议**：
+**AxiomOS 动态协议系列**：
 - **v11.0**: Conductor - 系统协议与SEEP实现协议
-- **v12.0**: Keystone-Enforced - 统一协议（推荐）
+- **v12.0**: Keystone-Enforced - 统一协议
+- **v13.2**: Production-Grade Hardening - 生产级强化协议
+- **v14.0**: Dynamic Protocol & Generative Mandate - 动态协议（推荐）
 
-**工作流程协议**：
-- **6A 工作流**: 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
-- **SEEP v3.0**: 安全工程与演进协议（Secure Engineering & Evolution Protocol）
+**核心特性**：
+- **动态协议**: 支持自适应学习和版本演进
+- **生成式使命**: 动态生成任务导向的使命授权
+- **认知架构师**: 首席领域架构师与预测性SRE混合体
+- **ADAPT 工作流**: Align → Deconstruct → Architect → Prototype → Transmit
 
 ### 2. 配置 MCP 工具
 

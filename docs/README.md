@@ -12,7 +12,9 @@ docs/
 │   └── claude-python-integration.zh.md       # Claude Python 集成指南
 ├── rules/                                      # 协议规则文档
 │   ├── cognitive-copilot-protocol-v11.0.md   # AxiomOS 系统协议 v11.0 - Conductor
-│   └── cognitive-copilot-protocol-v12.0.md   # AxiomOS 统一协议 v12.0 - Keystone（最新版本）
+│   ├── cognitive-copilot-protocol-v12.0.md   # AxiomOS 统一协议 v12.0 - Keystone
+│   ├── cognitive-copilot-protocol-v13.2.md   # AxiomOS v13.2 - Production-Grade Hardening
+│   └── cognitive-copilot-protocol-v14.0.md   # AxiomOS v14.0 - Dynamic Protocol（最新版本）
 ├── workflows/                                  # 工作流程文档
 │   ├── trae-workflow-v6a.zh.md               # TRAE 6A 工作流实践
 │   └── trae-workflow-v7a-v3.md               # SEEP 安全工程与演进协议 v3.0
@@ -78,7 +80,9 @@ docs/
 - **v9.1** - AxiomOS Cognitive Co-pilot 协议，优化版本
 - **v9.2** - AxiomOS Cognitive Co-pilot Protocol，稳定版本
 - **v11.0** - AxiomOS 系统协议，Conductor 代号版本
-- **v12.0** - AxiomOS 统一协议，Keystone-Enforced 最新版本（推荐）
+- **v12.0** - AxiomOS 统一协议，Keystone-Enforced 版本
+- **v13.2** - AxiomOS Production-Grade Hardening，生产级强化版本
+- **v14.0** - AxiomOS Dynamic Protocol & Generative Mandate，动态协议版本（推荐）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）

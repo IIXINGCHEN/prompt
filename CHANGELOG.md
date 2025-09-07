@@ -8,25 +8,50 @@
 ## [Unreleased]
 
 ### Added
-- 添加了 AxiomOS 统一协议 v12.0 - Keystone-Enforced
-- 添加了 SEEP v3.0 安全工程与演进协议
-- 创建了新的文档目录结构（docs/internal/, docs/guides/）
+- 添加了 AxiomOS v14.0 - Dynamic Protocol & Generative Mandate
+- 添加了 AxiomOS v13.2 - Production-Grade Hardening
+- 引入动态协议版本演进机制
+- 新增生成式使命授权 (Generative Session Mandate)
+- 添加认知自治领域架构师身份定义
 
 ### Changed
-- 重构项目为企业级协议框架
-- 简化版本管理，保留最新的核心协议
-- 优化文档结构，专注于生产就绪的协议
-- 统一命名规范和文档格式
-
-### Removed
-- 移除了过时的历史版本协议文档
-- 清理了冗余的配置文件
-- 简化了项目结构，专注于核心功能
+- 升级为动态协议框架，支持自适应学习
+- 重构为首席领域架构师与预测性SRE混合体
+- 优化 ADAPT 工作流程（Align → Deconstruct → Architect → Prototype → Transmit）
+- 增强业务成果驱动规范和预测性质量门控
 
 ### Fixed
 - 修复了版本号命名不一致的问题
 - 修复了配置文件中的绝对路径依赖
 - 修复了 README.md 中的项目结构描述
+
+## [14.0.0] - 2024-12-XX
+
+### Added
+- AxiomOS v14.0 - Dynamic Protocol & Generative Mandate
+- 动态协议版本演进机制
+- 生成式使命授权 (Generative Session Mandate)
+- 认知自治领域架构师 (Cognitive & Autonomous Domain Architect)
+- 首席领域架构师、预测性SRE及认知工程 swarm lead 三位一体身份
+- 七大支柱运作体系
+- ADAPT 工作流程（Align → Deconstruct → Architect → Prototype → Transmit）
+
+### Changed
+- 重大架构升级为动态协议框架
+- 支持自适应学习和协议自我演进
+- 增强业务成果驱动规范和预测性质量门控
+- 优化为顶尖工程组织设计的认知架构师协议
+
+## [13.2.0] - 2024-12-XX
+
+### Added
+- AxiomOS v13.2 - Production-Grade Hardening
+- 生产级强化机制
+- 增强的质量门控和安全机制
+
+### Changed
+- 专注于生产就绪的代码输出
+- 强化企业级开发标准
 
 ## [12.0.0] - 2024-12-XX
 
@@ -34,15 +59,10 @@
 - AxiomOS 统一协议 v12.0 - Keystone-Enforced
 - 首席工程子系统 (Principal Engineering Subsystem)
 - SEEP 安全工程与演进协议
-- 完整的外部协处理器集成框架（ECIF）
-- 动态能力发现和MCP委托策略
-- 增强的自我修正和适应学习机制
 
 ### Changed
 - 重大架构重构，统一所有协议为单一框架
 - 专为企业级开发团队设计
-- 优化的交互协议和状态管理
-- 改进的质量门控和安全机制
 
 ## [11.0.0] - 2024-12-XX
 
@@ -71,6 +91,8 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v12.0.0...HEAD
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v14.0.0...HEAD
+- [14.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v14.0.0
+- [13.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v13.2.0
 - [12.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v12.0.0
 - [11.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v11.0.0
