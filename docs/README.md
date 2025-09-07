@@ -25,6 +25,7 @@ docs/
 ├── RIPER/                                      # RIPER 执行框架协议
 │   ├── riper-protocol-v2.1.md               # AGENT-OS v2.1 - RIPER+ Protocol
 │   ├── nexus-protocol-v3.0.md               # AGENT-OS v3.0 - Nexus Protocol
+│   ├── nexus-protocol-v3.6.md               # AGENT-OS v3.6 - Nexus Protocol Enhanced
 │   └── axiom-os-integration-v4.0.md         # AGENT-OS v4.0 - AxiomOS Integration（最新版本）
 ├── rules/                                      # 协议规则文档
 │   ├── cognitive-copilot-protocol-v11.0.md   # AxiomOS 系统协议 v11.0 - Conductor
@@ -61,6 +62,7 @@ docs/
 ### 🚀 RIPER 执行框架 (RIPER/)
 - **riper-protocol-v2.1.md** - AGENT-OS v2.1: RIPER+ Protocol for Elite Task Execution
 - **nexus-protocol-v3.0.md** - AGENT-OS v3.0: Nexus Protocol for Elite Autonomous Task Execution
+- **nexus-protocol-v3.6.md** - AGENT-OS v3.6: Nexus Protocol Enhanced
 - **axiom-os-integration-v4.0.md** - AGENT-OS v4.0: AxiomOS Integration Protocol（最新版本，推荐）
 
 ### 🧠 协议规则文档 (rules/)
