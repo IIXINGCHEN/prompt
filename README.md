@@ -17,9 +17,9 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **最新版本**: v14.0 Dynamic Protocol & Generative Mandate
-- **动态协议**: 支持自适应学习和协议版本演进
-- **生成式使命**: 动态生成任务导向的使命授权
+- **最新版本**: v16.0 卓越领域架构认知引擎
+- **强制性自我诊断**: 每次响应前的动态诊断报告
+- **生产级标准**: 7大类严格的质量门禁
 - **企业级**: 专为顶尖工程组织设计的认知架构师协议
 
 ### 🔄 SEEP 工作流程
@@ -28,11 +28,13 @@
 - **任务分解**: 将复杂任务分解为可执行的原子任务
 - **文档驱动**: 每个阶段都有对应的文档产出
 
-### 🧠 AxiomOS 动态协议
-- **v11.0**: Conductor - 系统协议与SEEP实现
-- **v12.0**: Keystone-Enforced - 统一协议
-- **v13.2**: Production-Grade Hardening - 生产级强化
-- **v14.0**: Dynamic Protocol & Generative Mandate（推荐）
+### 🧠 AxiomOS 协议版本演进
+- **v16.0**: 卓越领域架构认知引擎（🟢 推荐）
+- **v15.0**: 结构化指令系统（🟡 维护模式）
+- **v14.0**: Dynamic Protocol & Generative Mandate（🟡 维护模式）
+- **v13.2**: Production-Grade Hardening - 生产级强化（📦 已归档）
+- **v12.0**: Keystone-Enforced - 统一协议（📦 已归档）
+- **v11.0**: Conductor - 系统协议与SEEP实现（📦 已归档）
 - **认知架构师**: 首席领域架构师与预测性SRE混合体
 
 ### 🛠️ MCP 工具集成
