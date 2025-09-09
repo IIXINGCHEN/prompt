@@ -1,0 +1,97 @@
+{
+  "$schema": "https://schemas.anthropic.com/claude-desktop-config.json",
+  "version": "1.0.0",
+  "description": "AxiomOS 统一 MCP 配置文件 - 生产级标准",
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "复杂问题分析和深度思考工具"
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
+      },
+      "description": "库文档查询和API助手",
+      "required_env": ["CONTEXT7_API_KEY"]
+    },
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "桌面文件系统操作工具"
+    },
+    "deepwiki": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-deepwiki@latest"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "深度知识库查询工具"
+    },
+    "chrome-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-chrome-bridge"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "Chrome浏览器自动化工具"
+    },
+    "codebase-mcp": {
+      "command": "codebase-mcp",
+      "args": [
+        "start"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "代码库分析和检索工具"
+    },
+    "ast-aware-editor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ast-aware-editor"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "AST_SERVER_PATH": "${AST_SERVER_PATH:-./ast-mcp-server}"
+      },
+      "description": "抽象语法树感知的代码编辑器"
+    }
+  },
+  "security": {
+    "trust_level": "production",
+    "environment_validation": true,
+    "required_node_version": ">=18.0.0"
+  },
+  "metadata": {
+    "created_by": "AxiomOS v15.0",
+    "last_updated": "2025-01-22",
+    "compatibility": ["claude-desktop", "mcp-client"],
+    "documentation": "../mcp-config-guide.md"
+  }
+}

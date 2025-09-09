@@ -50,73 +50,91 @@
 
 ```
 prompt/
-├── docs/                                       # 文档目录
-│   ├── configs/                                # 系统配置文档
-│   │   ├── axiom-os-v1.0.zh.md                # AxiomOS 版本 1.0 配置（基础版本）
-│   │   ├── claude-protocol-v2.0.zh.md         # Claude 协议 v2.0（中文版）
-│   │   └── claude-python-integration.zh.md    # Claude Python 集成指南
-│   ├── rules/                                  # 协议规则文档
-│   │   ├── cognitive-copilot-protocol-v11.0.md  # AxiomOS 系统协议 v11.0 - Conductor
-│   │   ├── cognitive-copilot-protocol-v12.0.md  # AxiomOS 统一协议 v12.0 - Keystone
-│   │   ├── cognitive-copilot-protocol-v13.2.md  # AxiomOS v13.2 - Production-Grade Hardening
-│   │   └── cognitive-copilot-protocol-v14.0.md  # AxiomOS v14.0 - Dynamic Protocol（最新版本）
-│   ├── workflows/                              # 工作流程文档
-│   │   ├── trae-workflow-v6a.zh.md            # TRAE 6A 工作流
-│   │   └── trae-workflow-v7a-v3.md            # SEEP 安全工程与演进协议 v3.0
+├── docs/                                       # 核心文档目录
+│   ├── current/                                # 当前版本协议 ⭐
+│   │   ├── axiom-os-v15.0.md                  # AxiomOS v15.0 (推荐)
+│   │   ├── axiom-os-v14.0.md                  # AxiomOS v14.0 (维护模式)
+│   │   ├── quick-start.md                     # 5分钟快速开始指南
+│   │   └── README.md                          # 当前版本说明
+│   ├── archive/                                # 历史版本归档
+│   │   ├── cognitive-copilot-protocol-v11.0.md  # v11.0 Conductor
+│   │   ├── cognitive-copilot-protocol-v12.0.md  # v12.0 Keystone-Enforced
+│   │   ├── cognitive-copilot-protocol-v13.2.md  # v13.2 Production-Grade
+│   │   └── README.md                          # 归档说明
+│   ├── examples/                               # 实际应用示例 🚀
+│   │   ├── learning-user-management.md        # 用户管理系统示例
+│   │   └── README.md                          # 示例索引
 │   ├── references/                             # 参考文档和配置
-│   │   ├── mcp-tools-reference.md             # MCP 工具参考手册
-│   │   ├── mcp-config-template.json           # MCP 配置文件模板
-│   │   ├── mcp-config-guide.md                # MCP 配置指南
-│   │   └── mcp.json                           # MCP 服务器配置文件
+│   │   ├── mcp-unified-config.json            # 统一MCP配置文件 ✨
+│   │   ├── mcp-config-template.json           # 配置模板
+│   │   ├── mcp-config-guide.md                # 配置指南
+│   │   ├── mcp-tools-reference.md             # 工具参考手册
+│   │   └── mcp.json                           # 原始配置文件
+│   ├── troubleshooting/                        # 故障排除指南 🔧
+│   │   └── README.md                          # 问题诊断和解决
+│   ├── configs/                                # 系统配置文档
+│   ├── workflows/                              # 工作流程文档
 │   ├── guides/                                 # 用户指南
-│   │   └── user-prompt-guide.md               # 用户提示词指南
 │   ├── internal/                               # 内部文档
-│   │   ├── prompt-optimization-guide.md       # Prompt 优化指南
-│   │   └── protocol-architect-guide.md        # 协议架构师指南
+│   ├── user/                                   # 用户文档
+│   ├── RIPER/                                  # RIPER 协议文档
 │   ├── README.md                               # 文档目录说明
 │   └── RENAMING_LOG.md                         # 文件重命名日志
-├── .gitignore                                  # Git 忽略文件
+├── scripts/                                    # 自动化脚本 🛠️
+│   └── validate-config.js                     # 配置验证器
+├── nexus_context.md                           # 全局上下文文档
 ├── CHANGELOG.md                                # 更新日志
 ├── CONTRIBUTING.md                             # 贡献指南
 ├── LICENSE                                     # MIT 许可证
 └── README.md                                   # 项目说明（本文件）
 ```
 
-## 🔧 快速开始
+## � 快速开始
+
+### ⚡ 5分钟快速上手
+
+**新用户推荐路径**：
+1. 📖 阅读 [快速开始指南](docs/current/quick-start.md) (5分钟)
+2. ⚙️ 配置 MCP 工具
+3. 🎯 执行第一个任务
 
 ### 1. 选择协议版本
 
-根据您的需求选择合适的协议版本：
-
-**AxiomOS 动态协议系列**：
-- **v11.0**: Conductor - 系统协议与SEEP实现协议
-- **v12.0**: Keystone-Enforced - 统一协议
-- **v13.2**: Production-Grade Hardening - 生产级强化协议
-- **v14.0**: Dynamic Protocol & Generative Mandate - 动态协议（推荐）
-
-**核心特性**：
-- **动态协议**: 支持自适应学习和版本演进
-- **生成式使命**: 动态生成任务导向的使命授权
-- **认知架构师**: 首席领域架构师与预测性SRE混合体
-- **ADAPT 工作流**: Align → Deconstruct → Architect → Prototype → Transmit
+| 版本 | 状态 | 推荐用途 | 文档 |
+|------|------|----------|------|
+| **v15.0** | 🟢 生产就绪 | 企业级项目 | [axiom-os-v15.0.md](docs/current/axiom-os-v15.0.md) |
+| v14.0 | 🟡 维护模式 | 中等复杂度项目 | [axiom-os-v14.0.md](docs/current/axiom-os-v14.0.md) |
+| v11.0-v13.2 | 📦 已归档 | 历史参考 | [archive/](docs/archive/) |
 
 ### 2. 配置 MCP 工具
 
-1. 复制配置模板：
+**推荐使用统一配置**：
 ```bash
-cp docs/references/mcp-config-template.json ~/.config/claude/claude_desktop_config.json
+# Windows
+copy "docs\references\mcp-unified-config.json" "%APPDATA%\Claude\claude_desktop_config.json"
+
+# macOS/Linux
+cp docs/references/mcp-unified-config.json ~/.config/claude/claude_desktop_config.json
 ```
 
-2. 根据 [MCP 配置指南](docs/references/mcp-config-guide.md) 修改配置
+**验证配置**：
+```bash
+node scripts/validate-config.js
+```
 
-3. 重启 Claude Desktop 并验证配置
+详细配置说明：[MCP 配置指南](docs/references/mcp-config-guide.md)
 
-### 3. 应用工作流程
+### 3. 激活 AxiomOS
 
-选择适合的工作流程：
+在 Claude Desktop 中输入：
+```
+请加载 AxiomOS v15.0 协议，并启动自检程序。
+```
 
-- **6A 工作流**: 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
-- **SEEP v3.0**: 安全工程与演进协议，专为企业级开发设计
+### 4. 查看示例
+
+- 📚 [用户管理系统示例](docs/examples/learning-user-management.md)
+- 🔧 [故障排除指南](docs/troubleshooting/README.md)
 
 ## 📖 使用指南
 
