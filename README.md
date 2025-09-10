@@ -17,7 +17,7 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **最新版本**: v17.0 卓越领域架构认知引擎
+- **最新版本**: v17.2 统一核心指令
 - **专家模式框架**: 审计修复、安全渗透、文档自动化专家
 - **认知核心机制**: 上下文压缩与状态管理协议
 - **生产级标准**: 7大类严格的质量门禁
@@ -30,7 +30,9 @@
 - **文档驱动**: 每个阶段都有对应的文档产出
 
 ### 🧠 AxiomOS 协议版本演进
-- **v17.0**: 卓越领域架构认知引擎（🟢 推荐）
+- **v17.2**: 统一核心指令（🟢 推荐）
+- **v17.1**: 结构化指令（🟡 维护模式）
+- **v17.0**: 卓越领域架构认知引擎（🟡 维护模式）
 - **v16.5**: 卓越领域架构认知引擎（🟡 维护模式）
 - **v16.1**: 卓越领域架构认知引擎（🟡 维护模式）
 - **v16.0**: 卓越领域架构认知引擎（🟡 维护模式）
@@ -58,8 +60,14 @@
 prompt/
 ├── docs/                                       # 核心文档目录
 │   ├── current/                                # 当前版本协议 ⭐
-│   │   ├── axiom-os-v15.0.md                  # AxiomOS v15.0 (推荐)
-│   │   ├── axiom-os-v14.0.md                  # AxiomOS v14.0 (维护模式)
+│ │ ├── axiom-os-v17.2.md # AxiomOS v17.2 (推荐)
+│ │ ├── axiom-os-v17.1.md # AxiomOS v17.1 (维护模式)
+│ │ ├── axiom-os-v17.0.md # AxiomOS v17.0 (维护模式)
+│ │ ├── axiom-os-v16.5.md # AxiomOS v16.5 (维护模式)
+│ │ ├── axiom-os-v16.1.md # AxiomOS v16.1 (维护模式)
+│ │ ├── axiom-os-v16.0.md # AxiomOS v16.0 (维护模式)
+│ │ ├── axiom-os-v15.0.md # AxiomOS v15.0 (维护模式)
+│ │ ├── axiom-os-v14.0.md # AxiomOS v14.0 (维护模式)
 │   │   ├── quick-start.md                     # 5分钟快速开始指南
 │   │   └── README.md                          # 当前版本说明
 │   ├── archive/                                # 历史版本归档
@@ -95,7 +103,7 @@ prompt/
 └── README.md                                   # 项目说明（本文件）
 ```
 
-## � 快速开始
+## ⚡ 快速开始
 
 ### ⚡ 5分钟快速上手
 
@@ -108,7 +116,9 @@ prompt/
 
 | 版本 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
-| **v17.0** | 🟢 生产就绪 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.0.md](docs/current/axiom-os-v17.0.md) |
+| **v17.2** | 🟢 生产就绪 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.2.md](docs/current/axiom-os-v17.2.md) |
+| v17.1 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.1.md](docs/current/axiom-os-v17.1.md) |
+| v17.0 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.0.md](docs/current/axiom-os-v17.0.md) |
 | v16.5 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.5.md](docs/current/axiom-os-v16.5.md) |
 | v16.1 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.1.md](docs/current/axiom-os-v16.1.md) |
 | v16.0 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.0.md](docs/current/axiom-os-v16.0.md) |
@@ -138,7 +148,7 @@ node scripts/validate-config.js
 
 在 Claude Desktop 中输入：
 ```
-请加载 AxiomOS v15.0 协议，并启动自检程序。
+请加载 AxiomOS v17.2 协议，并启动自检程序。
 ```
 
 ### 4. 查看示例

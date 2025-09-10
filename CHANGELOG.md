@@ -7,6 +7,45 @@
 
 ## [Unreleased]
 
+## [17.2.0] - 2025-09-10
+
+### Added
+- 添加了 AxiomOS v17.2 - 统一核心指令 (Unified Core Instructions)
+- 添加了 AxiomOS v17.1 - 结构化指令 (Structured Instructions)
+- 引入 SDM 6A 协议 (6阶段标准开发流程)
+- 完整的专家模式框架 (Expert Mode Framework)
+- 审计修复专家、安全渗透专家、规范与文档自动化专家
+
+### Changed
+- 升级主推荐版本从 v17.0 到 v17.2
+- 更新所有文档引用到最新版本
+- 优化协议版本管理，增加更多维护版本
+- 重构快速开始指南，支持最新协议
+- 更新示例文档使用最新版本协议
+
+### Fixed
+- 修复了版本引用不一致的问题
+- 更新了项目结构描述以反映最新状态
+- 统一了文档中的版本号引用
+
+## [17.0.0] - 2025-01-22
+
+### Added
+- 添加了 AxiomOS v17.0 - 卓越领域架构认知引擎
+- 完整的专家模式框架
+- 认知核心机制与状态管理协议
+- 零信任安全架构
+- 生产级交付物标准
+
+## [16.5.0] - 2025-01-22
+
+### Added
+- 添加了 AxiomOS v16.5 - 卓越领域架构认知引擎
+- 增强的自我诊断报告系统
+- 审计修复专家模式
+
+## [14.0.0] - 2024-12-XX
+
 ### Added
 - 添加了 AxiomOS v14.0 - Dynamic Protocol & Generative Mandate
 - 添加了 AxiomOS v13.2 - Production-Grade Hardening
@@ -19,11 +58,6 @@
 - 重构为首席领域架构师与预测性SRE混合体
 - 优化 ADAPT 工作流程（Align → Deconstruct → Architect → Prototype → Transmit）
 - 增强业务成果驱动规范和预测性质量门控
-
-### Fixed
-- 修复了版本号命名不一致的问题
-- 修复了配置文件中的绝对路径依赖
-- 修复了 README.md 中的项目结构描述
 
 ## [14.0.0] - 2024-12-XX
 
@@ -91,7 +125,10 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v14.0.0...HEAD
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v17.2.0...HEAD
+- [17.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v17.2.0
+- [17.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v17.0.0
+- [16.5.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v16.5.0
 - [14.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v14.0.0
 - [13.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v13.2.0
 - [12.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v12.0.0
