@@ -17,10 +17,11 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **最新版本**: v17.2 统一核心指令
+- **最新版本**: v18.0 统一核心指令框架
+- **Nexus OS v4.0**: Archon协议精英级自主任务执行
 - **专家模式框架**: 审计修复、安全渗透、文档自动化专家
 - **认知核心机制**: 上下文压缩与状态管理协议
-- **生产级标准**: 7大类严格的质量门禁
+- **生产级标准**: 8大类严格的质量门禁
 - **企业级**: 专为顶尖工程组织设计的认知架构师协议
 
 ### 🔄 SEEP 工作流程
@@ -30,6 +31,7 @@
 - **文档驱动**: 每个阶段都有对应的文档产出
 
 ### 🧠 AxiomOS 协议版本演进
+- **v18.0**: 统一核心指令框架（🟢 最新）
 - **v17.2**: 统一核心指令（🟢 推荐）
 - **v17.1**: 结构化指令（🟡 维护模式）
 - **v17.0**: 卓越领域架构认知引擎（🟡 维护模式）
@@ -42,6 +44,9 @@
 - **v12.0**: Keystone-Enforced - 统一协议（📦 已归档）
 - **v11.0**: Conductor - 系统协议与SEEP实现（📦 已归档）
 - **认知架构师**: 首席领域架构师与预测性SRE混合体
+
+### 🔥 RIPER 协议系列
+- **Nexus OS v4.0**: Archon协议精英级自主任务执行框架
 
 ### 🛠️ MCP 工具集成
 - **完整工具清单**: 涵盖分析、任务管理、知识查询等多个领域
@@ -60,6 +65,7 @@
 prompt/
 ├── docs/                                       # 核心文档目录
 │   ├── current/                                # 当前版本协议 ⭐
+│ │ ├── axiom-os-v18.0.md # AxiomOS v18.0 (最新)
 │ │ ├── axiom-os-v17.2.md # AxiomOS v17.2 (推荐)
 │ │ ├── axiom-os-v17.1.md # AxiomOS v17.1 (维护模式)
 │ │ ├── axiom-os-v17.0.md # AxiomOS v17.0 (维护模式)
@@ -91,7 +97,8 @@ prompt/
 │   ├── guides/                                 # 用户指南
 │   ├── internal/                               # 内部文档
 │   ├── user/                                   # 用户文档
-│   ├── RIPER/                                  # RIPER 协议文档
+│   ├── RIPER/                                  # RIPER 协议文档 🔥
+│   │   └── nexus-protocol-v4.0.md             # Nexus OS v4.0 Archon协议
 │   ├── README.md                               # 文档目录说明
 │   └── RENAMING_LOG.md                         # 文件重命名日志
 ├── scripts/                                    # 自动化脚本 🛠️
@@ -116,6 +123,7 @@ prompt/
 
 | 版本 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
+| **v18.0** | 🟢 最新 | 企业级项目、AI代理开发、项目引导 | [axiom-os-v18.0.md](docs/current/axiom-os-v18.0.md) |
 | **v17.2** | 🟢 生产就绪 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.2.md](docs/current/axiom-os-v17.2.md) |
 | v17.1 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.1.md](docs/current/axiom-os-v17.1.md) |
 | v17.0 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.0.md](docs/current/axiom-os-v17.0.md) |
@@ -125,6 +133,12 @@ prompt/
 | v15.0 | 🟡 维护模式 | 企业级项目 | [axiom-os-v15.0.md](docs/current/axiom-os-v15.0.md) |
 | v14.0 | 🟡 维护模式 | 中等复杂度项目 | [axiom-os-v14.0.md](docs/current/axiom-os-v14.0.md) |
 | v11.0-v13.2 | 📦 已归档 | 历史参考 | [archive/](docs/archive/) |
+
+### 🔥 RIPER协议系列
+
+| 协议 | 状态 | 推荐用途 | 文档 |
+|------|------|----------|------|
+| **Nexus OS v4.0** | 🚀 前沿 | 自主任务执行、精英AI代理 | [nexus-protocol-v4.0.md](docs/RIPER/nexus-protocol-v4.0.md) |
 
 ### 2. 配置 MCP 工具
 
@@ -148,7 +162,12 @@ node scripts/validate-config.js
 
 在 Claude Desktop 中输入：
 ```
-请加载 AxiomOS v17.2 协议，并启动自检程序。
+请加载 AxiomOS v18.0 协议，并启动自检程序。
+```
+
+或者使用最新的 Nexus OS：
+```
+启动 Nexus OS v4.0 Archon协议，开始精英级任务执行。
 ```
 
 ### 4. 查看示例
