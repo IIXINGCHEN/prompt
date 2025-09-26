@@ -146,7 +146,10 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v17.2.0...HEAD
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v18.3.0...HEAD
+- [18.3.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.3.0
+- [18.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.1.0
+- [18.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.0.0
 - [17.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v17.2.0
 - [17.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v17.0.0
 - [16.5.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v16.5.0

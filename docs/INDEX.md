@@ -43,8 +43,6 @@
 
 ### 📂 [workflows/](./workflows/) - 工作流文档
 - [`trae-workflow-v6.md`](./workflows/trae-workflow-v6.md) - TRAE工作流 v6
-- [`seep-protocol-v3.md`](./workflows/seep-protocol-v3.md) - SEEP协议 v3
-- [`nexus-protocol-v4.md`](./workflows/nexus-protocol-v4.md) - Nexus协议 v4
 
 ### 📂 [guides/](./guides/) - 使用指南
 - [`user-prompt-guide.md`](./guides/user-prompt-guide.md) - **当前** 用户提示指南 v2.0

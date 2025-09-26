@@ -22,12 +22,12 @@ docs/
 │   ├── mcp-config-template.json              # MCP 配置文件模板
 │   ├── mcp-config-guide.md                   # MCP 配置指南
 │   └── mcp.json                              # MCP 服务器配置文件
-├── RIPER/                                      # RIPER 执行框架协议
+├── protocols/                                   # 协议框架文档
 │   ├── riper-protocol-v2.1.md               # AGENT-OS v2.1 - RIPER+ Protocol
 │   ├── nexus-protocol-v3.0.md               # AGENT-OS v3.0 - Nexus Protocol
 │   ├── nexus-protocol-v3.6.md               # AGENT-OS v3.6 - Nexus Protocol Enhanced
 │   ├── nexus-protocol-v4.0.md               # AGENT-OS v4.0 - Nexus OS Integration
-│   └── axiom-os-integration-v4.0.md         # AGENT-OS v4.0 - AxiomOS Integration（最新版本）
+│   └── axiom-os-integration-v4.0.md         # AGENT-OS v4.0 - AxiomOS Integration
 ├── archive/                                    # 历史版本存档
 │   ├── axiom-os-v14.0.md                    # AxiomOS v14.0 - Dynamic Protocol
 │   ├── axiom-os-v15.0.md                    # AxiomOS v15.0
@@ -42,8 +42,7 @@ docs/
 │   ├── axiom-os-v17.1.md                    # AxiomOS v17.1
 │   ├── axiom-os-v17.2.md                    # AxiomOS v17.2
 │   ├── axiom-os-v18.0.md                    # AxiomOS v18.0
-│   ├── axiom-os-v18.1-DEPRECATED.md         # AxiomOS v18.1（已废弃）
-│   ├── axiom-os-v18.3.md                    # AxiomOS v18.3（最新版本）
+│   ├── axiom-os-v18.3.md                    # AxiomOS v18.3（最新稳定版本）
 │   ├── migration-guide.md                    # 版本迁移指南
 │   └── quick-start.md                        # 快速开始指南
 ├── user/                                       # 用户相关文档
@@ -72,7 +71,7 @@ docs/
 - **prompt-optimization-guide.md** - 提示优化指南
 - **protocol-architect-guide.md** - 协议架构师指南
 
-### 🚀 RIPER 执行框架 (RIPER/)
+### 🚀 协议框架 (protocols/)
 - **riper-protocol-v2.1.md** - AGENT-OS v2.1: RIPER+ Protocol for Elite Task Execution
 - **nexus-protocol-v3.0.md** - AGENT-OS v3.0: Nexus Protocol for Elite Autonomous Task Execution
 - **nexus-protocol-v3.6.md** - AGENT-OS v3.6: Nexus Protocol Enhanced
@@ -84,8 +83,7 @@ docs/
 - **axiom-os-v17.1.md** - AxiomOS v17.1
 - **axiom-os-v17.2.md** - AxiomOS v17.2
 - **axiom-os-v18.0.md** - AxiomOS v18.0
-- **axiom-os-v18.1-DEPRECATED.md** - AxiomOS v18.1（已废弃）
-- **axiom-os-v18.3.md** - AxiomOS v18.3（最新版本，推荐）
+- **axiom-os-v18.3.md** - AxiomOS v18.3（最新稳定版本，推荐使用）
 - **migration-guide.md** - 版本迁移指南
 - **quick-start.md** - 快速开始指南
 
@@ -130,8 +128,8 @@ docs/
 - **v17.1** - AxiomOS 功能增强版本
 - **v17.2** - AxiomOS 性能优化版本
 - **v18.0** - AxiomOS 重大更新版本
-- **v18.1** - AxiomOS 已废弃版本
-- **v18.3** - AxiomOS 最新稳定版本（推荐）
+- **v18.0** - AxiomOS 重大更新版本
+- **v18.3** - AxiomOS 最新稳定版本（当前推荐版本）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
@@ -191,3 +189,4 @@ docs/
 - **trae-workflow**: TRAE 工作流程
 - **cognitive-copilot-protocol**: 认知副驾协议
 - **mcp**: Model Context Protocol 相关
+- **protocols**: 各类执行框架协议
