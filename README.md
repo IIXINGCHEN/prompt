@@ -17,7 +17,7 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **最新版本**: v18.3 安全内核增强版
+- **最新版本**: v18.5 增强版（核心思维原则+审计优化模式）
 - **Nexus OS v4.0**: Archon协议精英级自主任务执行
 - **专家模式框架**: 审计修复、安全渗透、文档自动化专家
 - **认知核心机制**: 上下文压缩与状态管理协议
@@ -31,7 +31,8 @@
 - **文档驱动**: 每个阶段都有对应的文档产出
 
 ### 🧠 AxiomOS 协议版本演进
-- **v18.3**: 安全内核增强版（🟢 最新）
+- **v18.5**: 核心思维原则增强版（🟢 最新）
+- **v18.3**: 安全内核增强版（🟡 维护模式）
 - **v18.1**: 过渡版本（⚠️ 已废弃，包含身份声明错误）
 - **v18.0**: 统一核心指令框架（🟡 维护模式）
 - **v17.2**: 统一核心指令（🟡 维护模式）
@@ -65,54 +66,26 @@
 
 ```
 prompt/
-├── docs/                                       # 核心文档目录
-│   ├── current/                                # 当前版本协议 ⭐
-│ │ ├── axiom-os-v18.3.md # AxiomOS v18.3 (最新，安全内核增强版)
-│ │ ├── axiom-os-v18.1.md # AxiomOS v18.1 (废弃，包含错误)
-│ │ ├── axiom-os-v18.0.md # AxiomOS v18.0 (维护模式)
-│ │ ├── axiom-os-v17.2.md # AxiomOS v17.2 (维护模式)
-│ │ ├── axiom-os-v17.1.md # AxiomOS v17.1 (维护模式)
-│ │ ├── axiom-os-v17.0.md # AxiomOS v17.0 (维护模式)
-│ │ ├── axiom-os-v16.5.md # AxiomOS v16.5 (维护模式)
-│ │ ├── axiom-os-v16.1.md # AxiomOS v16.1 (维护模式)
-│ │ ├── axiom-os-v16.0.md # AxiomOS v16.0 (维护模式)
-│ │ ├── axiom-os-v15.0.md # AxiomOS v15.0 (维护模式)
-│ │ ├── axiom-os-v14.0.md # AxiomOS v14.0 (维护模式)
-│   │   ├── quick-start.md                     # 5分钟快速开始指南
-│   │   └── README.md                          # 当前版本说明
-│   ├── archive/                                # 历史版本归档
-│   │   ├── cognitive-copilot-protocol-v11.0.md  # v11.0 Conductor
-│   │   ├── cognitive-copilot-protocol-v12.0.md  # v12.0 Keystone-Enforced
-│   │   ├── cognitive-copilot-protocol-v13.2.md  # v13.2 Production-Grade
-│   │   └── README.md                          # 归档说明
-│   ├── examples/                               # 实际应用示例 🚀
-│   │   ├── learning-user-management.md        # 用户管理系统示例
-│   │   └── README.md                          # 示例索引
-│   ├── references/                             # 参考文档和配置
-│   │   ├── mcp-unified-config.json            # 统一MCP配置文件 ✨
-│   │   ├── mcp-config-template.json           # 配置模板
-│   │   ├── mcp-config-guide.md                # 配置指南
-│   │   ├── mcp-tools-reference.md             # 工具参考手册
-│   │   └── mcp.json                           # 原始配置文件
-│   ├── troubleshooting/                        # 故障排除指南 🔧
-│   │   └── README.md                          # 问题诊断和解决
-│   ├── configs/                                # 系统配置文档
-│   ├── workflows/                              # 工作流程文档
-│   ├── guides/                                 # 用户指南
-│   ├── internal/                               # 内部文档
-│   ├── user/                                   # 用户文档
-│   ├── RIPER/                                  # RIPER 协议文档 🔥
-│   │   └── nexus-protocol-v4.0.md             # Nexus OS v4.0 Archon协议
-│   ├── README.md                               # 文档目录说明
-│   └── RENAMING_LOG.md                         # 文件重命名日志
-├── scripts/                                    # 自动化脚本 🛠️
-│   └── validate-config.js                     # 配置验证器
-├── nexus_context.md                           # 全局上下文文档
-├── CHANGELOG.md                                # 更新日志
-├── CONTRIBUTING.md                             # 贡献指南
-├── LICENSE                                     # MIT 许可证
-└── README.md                                   # 项目说明（本文件）
+├── docs/                      # 📚 核心文档目录 - 详见 [文档索引](docs/INDEX.md)
+├── scripts/                   # 🛠️ 自动化脚本
+│   └── validate-config.js    # 配置验证器
+├── nexus_context.md          # 全局上下文文档
+├── CHANGELOG.md              # 更新日志
+├── CONTRIBUTING.md           # 贡献指南
+├── LICENSE                   # MIT 许可证
+└── README.md                 # 项目说明（本文件）
 ```
+
+### 📖 文档结构详情
+
+完整的文档结构和导航请查看 **[文档索引 (docs/INDEX.md)](docs/INDEX.md)**，包含：
+- **current/** - 当前支持版本 (v18.5, v18.3 等)
+- **archive/** - 历史版本归档
+- **examples/** - 实际应用示例
+- **references/** - MCP 配置和工具参考
+- **workflows/** - 工作流程文档
+- **guides/** - 用户指南
+- **RIPER/** - RIPER 协议系列
 
 ## ⚡ 快速开始
 
@@ -127,7 +100,7 @@ prompt/
 
 | 版本 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
-| **v18.3** | 🟢 最新 | 企业级项目、AI代理开发、安全内核增强 | [axiom-os-v18.3.md](docs/current/axiom-os-v18.3.md) |
+| **v18.5** | 🟢 最新 | 企业级项目、AI代理开发、核心思维原则、审计优化模式 | [axiom-os-v18.5.md](docs/current/axiom-os-v18.5.md) |
 | v18.1 | ⚠️ 废弃 | **请勿使用** - 包含身份声明错误 | [axiom-os-v18.1.md](docs/current/axiom-os-v18.1.md) |
 | v18.0 | 🟡 维护模式 | 企业级项目、AI代理开发、项目引导 | [axiom-os-v18.0.md](docs/current/axiom-os-v18.0.md) |
 | v17.2 | 🟡 维护模式 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.2.md](docs/current/axiom-os-v17.2.md) |
@@ -144,7 +117,7 @@ prompt/
 
 | 协议 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
-| **Nexus OS v4.0** | 🚀 前沿 | 自主任务执行、精英AI代理 | [nexus-protocol-v4.0.md](docs/RIPER/nexus-protocol-v4.0.md) |
+| **Nexus OS v4.0** | 🚀 前沿 | 自主任务执行、精英AI代理 | [nexus-protocol-v4.0.md](docs/protocols/nexus-protocol-v4.0.md) |
 
 ### 2. 配置 MCP 工具
 
@@ -168,7 +141,7 @@ node scripts/validate-config.js
 
 在 Claude Desktop 中输入：
 ```
-请加载 AxiomOS v18.3 协议，并启动自检程序。
+请加载 AxiomOS v18.5 协议，并启动自检程序。
 ```
 
 或者使用最新的 Nexus OS：
