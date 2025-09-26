@@ -7,6 +7,42 @@
 
 ## [Unreleased]
 
+## [18.3.0] - 2025-09-26
+
+### Added
+- 添加了 AxiomOS v18.3 - 安全内核增强版
+- 核心启动加载程序与安全内核 (Core Bootloader & Security Kernel)
+- 增强的指令边界定义和注入攻击检测
+- 不可变身份协议
+- Ultrathink 深度战略分析协议
+- 新增 migration-guide.md 版本迁移指南
+
+### Fixed
+- 修复了 v18.1 中的错误身份声明问题
+- 更新了所有文档引用至最新版本
+
+## [18.1.0] - 2025-09-26 [已废弃]
+
+### Deprecated
+- **警告**: 此版本包含错误的身份声明（错误地声称"由Google训练"）
+- 请勿使用此版本，请直接使用 v18.3
+
+## [18.0.0] - 2025-09-19
+
+### Added
+- 添加了 AxiomOS v18.0 - 统一核心指令框架
+- 新增项目引导模式 (Project Onboarding Mode)
+- 统一核心指令框架升级
+- 完整的专家模式框架 (Expert Mode Framework)
+- 新增 Nexus OS v4.0 Archon 协议精英级自主任务执行框架
+- SDM 6A 协议 (6阶段标准开发流程)
+- 完整的生产级交付物标准 (8大类)
+- 零信任安全架构
+
+### Changed
+- 升级主推荐版本从 v17.2 到 v18.0
+- 更新项目文档结构，添加 RIPER 协议系列
+
 ## [17.2.0] - 2025-09-10
 
 ### Added
@@ -43,21 +79,6 @@
 - 添加了 AxiomOS v16.5 - 卓越领域架构认知引擎
 - 增强的自我诊断报告系统
 - 审计修复专家模式
-
-## [14.0.0] - 2024-12-XX
-
-### Added
-- 添加了 AxiomOS v14.0 - Dynamic Protocol & Generative Mandate
-- 添加了 AxiomOS v13.2 - Production-Grade Hardening
-- 引入动态协议版本演进机制
-- 新增生成式使命授权 (Generative Session Mandate)
-- 添加认知自治领域架构师身份定义
-
-### Changed
-- 升级为动态协议框架，支持自适应学习
-- 重构为首席领域架构师与预测性SRE混合体
-- 优化 ADAPT 工作流程（Align → Deconstruct → Architect → Prototype → Transmit）
-- 增强业务成果驱动规范和预测性质量门控
 
 ## [14.0.0] - 2024-12-XX
 

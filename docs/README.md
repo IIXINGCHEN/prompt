@@ -26,12 +26,26 @@ docs/
 │   ├── riper-protocol-v2.1.md               # AGENT-OS v2.1 - RIPER+ Protocol
 │   ├── nexus-protocol-v3.0.md               # AGENT-OS v3.0 - Nexus Protocol
 │   ├── nexus-protocol-v3.6.md               # AGENT-OS v3.6 - Nexus Protocol Enhanced
+│   ├── nexus-protocol-v4.0.md               # AGENT-OS v4.0 - Nexus OS Integration
 │   └── axiom-os-integration-v4.0.md         # AGENT-OS v4.0 - AxiomOS Integration（最新版本）
-├── rules/                                      # 协议规则文档
-│   ├── cognitive-copilot-protocol-v11.0.md   # AxiomOS 系统协议 v11.0 - Conductor
-│   ├── cognitive-copilot-protocol-v12.0.md   # AxiomOS 统一协议 v12.0 - Keystone
-│   ├── cognitive-copilot-protocol-v13.2.md   # AxiomOS v13.2 - Production-Grade Hardening
-│   └── cognitive-copilot-protocol-v14.0.md   # AxiomOS v14.0 - Dynamic Protocol（最新版本）
+├── archive/                                    # 历史版本存档
+│   ├── axiom-os-v14.0.md                    # AxiomOS v14.0 - Dynamic Protocol
+│   ├── axiom-os-v15.0.md                    # AxiomOS v15.0
+│   ├── axiom-os-v16.0.md                    # AxiomOS v16.0
+│   ├── axiom-os-v16.1.md                    # AxiomOS v16.1
+│   ├── axiom-os-v16.5.md                    # AxiomOS v16.5
+│   ├── cognitive-copilot-protocol-v11.0.md  # AxiomOS 系统协议 v11.0 - Conductor
+│   ├── cognitive-copilot-protocol-v12.0.md  # AxiomOS 统一协议 v12.0 - Keystone
+│   └── cognitive-copilot-protocol-v13.2.md  # AxiomOS v13.2 - Production-Grade Hardening
+├── current/                                    # 当前版本文档
+│   ├── axiom-os-v17.0.md                    # AxiomOS v17.0
+│   ├── axiom-os-v17.1.md                    # AxiomOS v17.1
+│   ├── axiom-os-v17.2.md                    # AxiomOS v17.2
+│   ├── axiom-os-v18.0.md                    # AxiomOS v18.0
+│   ├── axiom-os-v18.1-DEPRECATED.md         # AxiomOS v18.1（已废弃）
+│   ├── axiom-os-v18.3.md                    # AxiomOS v18.3（最新版本）
+│   ├── migration-guide.md                    # 版本迁移指南
+│   └── quick-start.md                        # 快速开始指南
 ├── user/                                       # 用户相关文档
 │   ├── user-guide-v1.md                     # 用户文档 v1
 │   └── user-guide-v2.md                     # 用户文档 v2
@@ -39,8 +53,7 @@ docs/
 │   ├── trae-workflow-v6.md                   # TRAE 6A 工作流配置
 │   ├── trae-workflow-v7-v3.md               # TRAE 7A 工作流 v3
 │   └── trae-workflow-v7-v4.md               # TRAE 7A 工作流 v4（最新版本）
-├── README.md                                   # 本文件
-└── RENAMING_LOG.md                             # 文件重命名日志
+└── README.md                                   # 本文件
 ```
 
 ## 📋 文档说明
@@ -63,13 +76,28 @@ docs/
 - **riper-protocol-v2.1.md** - AGENT-OS v2.1: RIPER+ Protocol for Elite Task Execution
 - **nexus-protocol-v3.0.md** - AGENT-OS v3.0: Nexus Protocol for Elite Autonomous Task Execution
 - **nexus-protocol-v3.6.md** - AGENT-OS v3.6: Nexus Protocol Enhanced
-- **axiom-os-integration-v4.0.md** - AGENT-OS v4.0: AxiomOS Integration Protocol（最新版本，推荐）
+- **nexus-protocol-v4.0.md** - AGENT-OS v4.0: Nexus OS Integration
+- **axiom-os-integration-v4.0.md** - AGENT-OS v4.0: AxiomOS Integration Protocol
 
-### 🧠 协议规则文档 (rules/)
+### 🧠 当前版本文档 (current/)
+- **axiom-os-v17.0.md** - AxiomOS v17.0
+- **axiom-os-v17.1.md** - AxiomOS v17.1
+- **axiom-os-v17.2.md** - AxiomOS v17.2
+- **axiom-os-v18.0.md** - AxiomOS v18.0
+- **axiom-os-v18.1-DEPRECATED.md** - AxiomOS v18.1（已废弃）
+- **axiom-os-v18.3.md** - AxiomOS v18.3（最新版本，推荐）
+- **migration-guide.md** - 版本迁移指南
+- **quick-start.md** - 快速开始指南
+
+### 📂 历史版本存档 (archive/)
+- **axiom-os-v14.0.md** - AxiomOS v14.0 - Dynamic Protocol
+- **axiom-os-v15.0.md** - AxiomOS v15.0
+- **axiom-os-v16.0.md** - AxiomOS v16.0
+- **axiom-os-v16.1.md** - AxiomOS v16.1
+- **axiom-os-v16.5.md** - AxiomOS v16.5
 - **cognitive-copilot-protocol-v11.0.md** - AxiomOS 系统协议 v11.0 - Conductor
 - **cognitive-copilot-protocol-v12.0.md** - AxiomOS 统一协议 v12.0 - Keystone
 - **cognitive-copilot-protocol-v13.2.md** - AxiomOS v13.2 - Production-Grade Hardening
-- **cognitive-copilot-protocol-v14.0.md** - AxiomOS v14.0 - Dynamic Protocol（最新版本，推荐）
 
 ### 👤 用户文档 (user/)
 - **user-guide-v1.md** - 用户文档 v1
@@ -90,20 +118,20 @@ docs/
 
 ### AxiomOS 配置文档版本历史
 - **v1.0** - 基础版本，包含核心协议和基础工作流程
-- **v3.5** - 增强版本，添加了更多 MCP 工具集成和优化
-- **v3.7.2** - 最新版本，优化了蓝图协议和质量门控机制
-- **v6.1** - 英文版本，支持国际化使用
-- **v6.3** - 认知副驾协作协议，专注于人机协作优化
-- **v7.3** - 认知副驾协作协议增强版，优化协作流程
-- **v8.0** - 认知副驾协作协议重大更新，增强智能化程度
-- **v8.1** - 认知副驾协作协议，完善功能和性能
-- **v9.0** - AxiomOS Cognitive Co-pilot 协议，全面重构版本
-- **v9.1** - AxiomOS Cognitive Co-pilot 协议，优化版本
-- **v9.2** - AxiomOS Cognitive Co-pilot Protocol，稳定版本
 - **v11.0** - AxiomOS 系统协议，Conductor 代号版本
 - **v12.0** - AxiomOS 统一协议，Keystone-Enforced 版本
 - **v13.2** - AxiomOS Production-Grade Hardening，生产级强化版本
-- **v14.0** - AxiomOS Dynamic Protocol & Generative Mandate，动态协议版本（推荐）
+- **v14.0** - AxiomOS Dynamic Protocol & Generative Mandate，动态协议版本
+- **v15.0** - AxiomOS 增强版本
+- **v16.0** - AxiomOS 改进版本
+- **v16.1** - AxiomOS 补丁版本
+- **v16.5** - AxiomOS 优化版本
+- **v17.0** - AxiomOS 新架构版本
+- **v17.1** - AxiomOS 功能增强版本
+- **v17.2** - AxiomOS 性能优化版本
+- **v18.0** - AxiomOS 重大更新版本
+- **v18.1** - AxiomOS 已废弃版本
+- **v18.3** - AxiomOS 最新稳定版本（推荐）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
@@ -135,10 +163,11 @@ docs/
 
 ## 🔗 快速导航
 
-- **新手入门**: 建议从 [AxiomOS v3.7.2](configs/axiom-os-v3.7.2.zh.md) 开始
-- **工作流程**: 查看 [TRAE 7A 工作流 v2.0](workflows/trae-workflow-v7a-v2.zh.md)
+- **新手入门**: 建议从 [AxiomOS v18.3](current/axiom-os-v18.3.md) 或 [快速开始指南](current/quick-start.md) 开始
+- **工作流程**: 查看 [TRAE 7A 工作流 v4](workflows/trae-workflow-v7-v4.md)
 - **工具配置**: 参考 [MCP 配置指南](references/mcp-config-guide.md)
 - **问题排查**: 查看 [MCP 工具参考手册](references/mcp-tools-reference.md)
+- **版本迁移**: 阅读 [迁移指南](current/migration-guide.md)
 
 ## 📋 文件命名规范
 
@@ -152,9 +181,9 @@ docs/
 - **语言标识**: zh (中文), en (英文)
 
 ### 示例
-- `axiom-os-v3.7.2.zh.md` - AxiomOS 版本 3.7.2 中文配置
-- `trae-workflow-v7a.zh.md` - TRAE 7A 工作流中文文档
-- `cognitive-copilot-protocol-v6.3.en.md` - 认知副驾协议英文版
+- `axiom-os-v18.3.md` - AxiomOS 版本 18.3 配置
+- `trae-workflow-v7-v4.md` - TRAE 7A v4 工作流文档
+- `cognitive-copilot-protocol-v13.2.md` - 认知副驾协议 v13.2
 
 ### 类别说明
 - **axiom-os**: AxiomOS 系统配置

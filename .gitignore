@@ -144,3 +144,6 @@ docs/.doctrees/
 *.bak
 *.backup
 *.orig
+
+.spec-workflow/
+.claude/

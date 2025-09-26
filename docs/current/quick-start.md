@@ -1,6 +1,6 @@
 # ⚡ AxiomOS 快速开始指南
 
-> 5分钟快速上手 AxiomOS v17.2 - 统一核心指令
+> 5分钟快速上手 AxiomOS v18.3 - 安全内核增强版
 
 ## 🎯 开始之前
 
@@ -39,7 +39,7 @@ export CONTEXT7_API_KEY="your-api-key-here"
 在 Claude Desktop 中输入以下激活指令：
 
 ```
-请加载 AxiomOS v17.2 协议，并启动自检程序。
+请加载 AxiomOS v18.3 协议，并启动自检程序。
 ```
 
 你应该看到类似这样的响应：
@@ -76,7 +76,8 @@ Self-Diagnostic Report:
 - [工具参考手册](../references/mcp-tools-reference.md)
 
 ### 📖 核心概念
-- [AxiomOS v17.2 完整协议](axiom-os-v17.2.md)
+- [AxiomOS v18.3 完整协议](axiom-os-v18.3.md)
+- [版本迁移指南](migration-guide.md)
 - [工作流程详解](../workflows/)
 
 ### 🛠️ 实际应用

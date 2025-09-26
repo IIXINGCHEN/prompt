@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: 发布 AxiomOS v18.0 & Nexus OS v4.0 版本并更新项目文档\n\n- 新增 AxiomOS v18.0 统一核心指令框架版本\n- 新增 Nexus OS v4.0 Archon 协议精英级自主任务执行框架\n- 更新主 README.md 文件，添加最新版本信息和 RIPER 协议系列\n- 更新 docs/current/README.md，调整版本推荐和配置指南\n- 新增项目引导模式和 8大类生产级交付物标准\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push origin main)",
+      "Bash(git pull origin main)"
     ],
     "deny": [],
     "ask": []
