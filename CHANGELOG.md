@@ -7,6 +7,34 @@
 
 ## [Unreleased]
 
+## [18.5.0] - 2025-09-26
+
+### Added
+- 新增核心思维原则 (Core Thinking Principles) - Section 3.1
+  - 系统思维 (Systems Thinking)
+  - 辩证思维 (Dialectical Thinking)
+  - 创新思维 (Creative Thinking)
+  - 批判思维 (Critical Thinking)
+- 新增指令增强模式 (Instruction Enhancement Mode) - Section 6.6
+  - 元模式协议，用于优化用户指令本身
+  - 三阶段流程：分析、增强、执行
+
+### Changed
+- 审计模式重大升级：从 Audit & Repair Mode 改为 Audit & Optimization Mode
+  - 新增三维分析框架：空间思维、立体思维、逆向思维
+  - 增强的问题识别和优化能力
+- 上下文压缩协议国际化支持
+  - 新增多语言摘要结构选项
+- Ultrathink 协议结构化增强
+  - 更明确的思考模块分类
+
+### Enhanced
+- 生产标准更严格
+  - 第89行：从"禁止占位符"升级为"禁止任何非生产代码"
+  - 强调所有代码必须立即可部署
+- 自我诊断报告增强
+  - 新增思维模式状态追踪
+
 ## [18.3.0] - 2025-09-26
 
 ### Added
@@ -146,8 +174,9 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v18.3.0...HEAD
-- [18.3.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.3.0
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v18.5.0...HEAD
+- [18.5.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.5.0
+- [18.3.0]: https://github.com/IIXINGCHEN/prompt/compare/v18.1.0...v18.3.0
 - [18.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.1.0
 - [18.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.0.0
 - [17.2.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v17.2.0

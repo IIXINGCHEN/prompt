@@ -42,7 +42,8 @@ docs/
 │   ├── axiom-os-v17.1.md                    # AxiomOS v17.1
 │   ├── axiom-os-v17.2.md                    # AxiomOS v17.2
 │   ├── axiom-os-v18.0.md                    # AxiomOS v18.0
-│   ├── axiom-os-v18.3.md                    # AxiomOS v18.3（最新稳定版本）
+│   ├── axiom-os-v18.3.md                    # AxiomOS v18.3
+│   ├── axiom-os-v18.5.md                    # AxiomOS v18.5（最新稳定版本）
 │   ├── migration-guide.md                    # 版本迁移指南
 │   └── quick-start.md                        # 快速开始指南
 ├── user/                                       # 用户相关文档
@@ -83,7 +84,8 @@ docs/
 - **axiom-os-v17.1.md** - AxiomOS v17.1
 - **axiom-os-v17.2.md** - AxiomOS v17.2
 - **axiom-os-v18.0.md** - AxiomOS v18.0
-- **axiom-os-v18.3.md** - AxiomOS v18.3（最新稳定版本，推荐使用）
+- **axiom-os-v18.3.md** - AxiomOS v18.3
+- **axiom-os-v18.5.md** - AxiomOS v18.5（最新稳定版本，推荐使用）
 - **migration-guide.md** - 版本迁移指南
 - **quick-start.md** - 快速开始指南
 
@@ -128,8 +130,8 @@ docs/
 - **v17.1** - AxiomOS 功能增强版本
 - **v17.2** - AxiomOS 性能优化版本
 - **v18.0** - AxiomOS 重大更新版本
-- **v18.0** - AxiomOS 重大更新版本
-- **v18.3** - AxiomOS 最新稳定版本（当前推荐版本）
+- **v18.3** - AxiomOS 稳定版本
+- **v18.5** - AxiomOS 最新增强版本（当前推荐版本）
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
@@ -161,7 +163,7 @@ docs/
 
 ## 🔗 快速导航
 
-- **新手入门**: 建议从 [AxiomOS v18.3](current/axiom-os-v18.3.md) 或 [快速开始指南](current/quick-start.md) 开始
+- **新手入门**: 建议从 [AxiomOS v18.5](current/axiom-os-v18.5.md) 或 [快速开始指南](current/quick-start.md) 开始
 - **工作流程**: 查看 [TRAE 7A 工作流 v4](workflows/trae-workflow-v7-v4.md)
 - **工具配置**: 参考 [MCP 配置指南](references/mcp-config-guide.md)
 - **问题排查**: 查看 [MCP 工具参考手册](references/mcp-tools-reference.md)
