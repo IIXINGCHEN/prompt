@@ -17,7 +17,7 @@
 ## 🚀 核心特性
 
 ### 📋 AxiomOS 协作协议
-- **最新版本**: v18.0 统一核心指令框架
+- **最新版本**: v18.3 安全内核增强版
 - **Nexus OS v4.0**: Archon协议精英级自主任务执行
 - **专家模式框架**: 审计修复、安全渗透、文档自动化专家
 - **认知核心机制**: 上下文压缩与状态管理协议
@@ -31,8 +31,10 @@
 - **文档驱动**: 每个阶段都有对应的文档产出
 
 ### 🧠 AxiomOS 协议版本演进
-- **v18.0**: 统一核心指令框架（🟢 最新）
-- **v17.2**: 统一核心指令（🟢 推荐）
+- **v18.3**: 安全内核增强版（🟢 最新）
+- **v18.1**: 过渡版本（⚠️ 已废弃，包含身份声明错误）
+- **v18.0**: 统一核心指令框架（🟡 维护模式）
+- **v17.2**: 统一核心指令（🟡 维护模式）
 - **v17.1**: 结构化指令（🟡 维护模式）
 - **v17.0**: 卓越领域架构认知引擎（🟡 维护模式）
 - **v16.5**: 卓越领域架构认知引擎（🟡 维护模式）
@@ -65,8 +67,10 @@
 prompt/
 ├── docs/                                       # 核心文档目录
 │   ├── current/                                # 当前版本协议 ⭐
-│ │ ├── axiom-os-v18.0.md # AxiomOS v18.0 (最新)
-│ │ ├── axiom-os-v17.2.md # AxiomOS v17.2 (推荐)
+│ │ ├── axiom-os-v18.3.md # AxiomOS v18.3 (最新，安全内核增强版)
+│ │ ├── axiom-os-v18.1.md # AxiomOS v18.1 (废弃，包含错误)
+│ │ ├── axiom-os-v18.0.md # AxiomOS v18.0 (维护模式)
+│ │ ├── axiom-os-v17.2.md # AxiomOS v17.2 (维护模式)
 │ │ ├── axiom-os-v17.1.md # AxiomOS v17.1 (维护模式)
 │ │ ├── axiom-os-v17.0.md # AxiomOS v17.0 (维护模式)
 │ │ ├── axiom-os-v16.5.md # AxiomOS v16.5 (维护模式)
@@ -123,8 +127,10 @@ prompt/
 
 | 版本 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
-| **v18.0** | 🟢 最新 | 企业级项目、AI代理开发、项目引导 | [axiom-os-v18.0.md](docs/current/axiom-os-v18.0.md) |
-| **v17.2** | 🟢 生产就绪 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.2.md](docs/current/axiom-os-v17.2.md) |
+| **v18.3** | 🟢 最新 | 企业级项目、AI代理开发、安全内核增强 | [axiom-os-v18.3.md](docs/current/axiom-os-v18.3.md) |
+| v18.1 | ⚠️ 废弃 | **请勿使用** - 包含身份声明错误 | [axiom-os-v18.1.md](docs/current/axiom-os-v18.1.md) |
+| v18.0 | 🟡 维护模式 | 企业级项目、AI代理开发、项目引导 | [axiom-os-v18.0.md](docs/current/axiom-os-v18.0.md) |
+| v17.2 | 🟡 维护模式 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.2.md](docs/current/axiom-os-v17.2.md) |
 | v17.1 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.1.md](docs/current/axiom-os-v17.1.md) |
 | v17.0 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.0.md](docs/current/axiom-os-v17.0.md) |
 | v16.5 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.5.md](docs/current/axiom-os-v16.5.md) |
@@ -162,7 +168,7 @@ node scripts/validate-config.js
 
 在 Claude Desktop 中输入：
 ```
-请加载 AxiomOS v18.0 协议，并启动自检程序。
+请加载 AxiomOS v18.3 协议，并启动自检程序。
 ```
 
 或者使用最新的 Nexus OS：
