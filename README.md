@@ -33,16 +33,12 @@
 ### 🧠 AxiomOS 协议版本演进
 - **v18.5**: 核心思维原则增强版（🟢 最新）
 - **v18.3**: 安全内核增强版（🟡 维护模式）
-- **v18.1**: 过渡版本（⚠️ 已废弃，包含身份声明错误）
-- **v18.0**: 统一核心指令框架（🟡 维护模式）
-- **v17.2**: 统一核心指令（🟡 维护模式）
-- **v17.1**: 结构化指令（🟡 维护模式）
-- **v17.0**: 卓越领域架构认知引擎（🟡 维护模式）
-- **v16.5**: 卓越领域架构认知引擎（🟡 维护模式）
-- **v16.1**: 卓越领域架构认知引擎（🟡 维护模式）
-- **v16.0**: 卓越领域架构认知引擎（🟡 维护模式）
-- **v15.0**: 结构化指令系统（🟡 维护模式）
-- **v14.0**: Dynamic Protocol & Generative Mandate（🟡 维护模式）
+- **v18.1**: 过渡版本（⚠️ 已废弃）
+- **v18.0**: 统一核心指令框架（📦 已归档）
+- **v17.x**: 结构化指令系列（📦 已归档）
+- **v16.x**: 卓越领域架构认知引擎（📦 已归档）
+- **v15.0**: 结构化指令系统（📦 已归档）
+- **v14.0**: Dynamic Protocol & Generative Mandate（📦 已归档）
 - **v13.2**: Production-Grade Hardening - 生产级强化（📦 已归档）
 - **v12.0**: Keystone-Enforced - 统一协议（📦 已归档）
 - **v11.0**: Conductor - 系统协议与SEEP实现（📦 已归档）
@@ -92,7 +88,7 @@ prompt/
 ### ⚡ 5分钟快速上手
 
 **新用户推荐路径**：
-1. 📖 阅读 [快速开始指南](docs/current/quick-start.md) (5分钟)
+1. 📖 阅读当前版本文档 [v18.5](docs/current/axiom-os-v18.5.md)
 2. ⚙️ 配置 MCP 工具
 3. 🎯 执行第一个任务
 
@@ -101,17 +97,16 @@ prompt/
 | 版本 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
 | **v18.5** | 🟢 最新 | 企业级项目、AI代理开发、核心思维原则、审计优化模式 | [axiom-os-v18.5.md](docs/current/axiom-os-v18.5.md) |
-| v18.1 | ⚠️ 废弃 | **请勿使用** - 包含身份声明错误 | [axiom-os-v18.1.md](docs/current/axiom-os-v18.1.md) |
-| v18.0 | 🟡 维护模式 | 企业级项目、AI代理开发、项目引导 | [axiom-os-v18.0.md](docs/current/axiom-os-v18.0.md) |
-| v17.2 | 🟡 维护模式 | 企业级项目、生产环境、安全审计 | [axiom-os-v17.2.md](docs/current/axiom-os-v17.2.md) |
-| v17.1 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.1.md](docs/current/axiom-os-v17.1.md) |
-| v17.0 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v17.0.md](docs/current/axiom-os-v17.0.md) |
-| v16.5 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.5.md](docs/current/axiom-os-v16.5.md) |
-| v16.1 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.1.md](docs/current/axiom-os-v16.1.md) |
-| v16.0 | 🟡 维护模式 | 企业级项目、生产环境 | [axiom-os-v16.0.md](docs/current/axiom-os-v16.0.md) |
-| v15.0 | 🟡 维护模式 | 企业级项目 | [axiom-os-v15.0.md](docs/current/axiom-os-v15.0.md) |
-| v14.0 | 🟡 维护模式 | 中等复杂度项目 | [axiom-os-v14.0.md](docs/current/axiom-os-v14.0.md) |
-| v11.0-v13.2 | 📦 已归档 | 历史参考 | [archive/](docs/archive/) |
+| v18.3 | 🟡 维护模式 | 企业级项目、AI代理开发、安全内核增强 | [axiom-os-v18.3.md](docs/current/axiom-os-v18.3.md) |
+| v18.1 | ⚠️ 废弃 | **请勿使用** - 包含身份声明错误 | - |
+| v18.0 | 📦 已归档 | 历史参考 | [axiom-os-v18.0.md](docs/archive/axiom-os-v18.0.md) |
+| v17.2 | 📦 已归档 | 历史参考 | [axiom-os-v17.2.md](docs/archive/axiom-os-v17.2.md) |
+| v17.1 | 📦 已归档 | 历史参考 | [axiom-os-v17.1.md](docs/archive/axiom-os-v17.1.md) |
+| v17.0 | 📦 已归档 | 历史参考 | [axiom-os-v17.0.md](docs/archive/axiom-os-v17.0.md) |
+| v16.x | 📦 已归档 | 历史参考 | 见 [archive/](docs/archive/) |
+| v15.0 | 📦 已归档 | 历史参考 | [axiom-os-v15.0.md](docs/archive/axiom-os-v15.0.md) |
+| v14.0 | 📦 已归档 | 历史参考 | [axiom-os-v14.0.md](docs/archive/axiom-os-v14.0.md) |
+| v11.0-v13.2 | 📦 已归档 | 历史参考 | 见 [archive/](docs/archive/) |
 
 ### 🔥 RIPER协议系列
 

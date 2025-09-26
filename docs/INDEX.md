@@ -8,15 +8,13 @@
 - [`axiom-os-v18.5.md`](./current/axiom-os-v18.5.md) - **最新版本** AxiomOS v18.5 核心指令
 - [`axiom-os-v18.3.md`](./current/axiom-os-v18.3.md) - v18.3 版本（安全内核增强）
 - [`axiom-os-v18.1.md`](./current/axiom-os-v18.1.md) - v18.1 版本（⚠️ 已废弃）
-- [`axiom-os-v18.0.md`](./current/axiom-os-v18.0.md) - v18.0 版本
-- [`axiom-os-v17.2.md`](./current/axiom-os-v17.2.md) - v17.2 版本
-- [`axiom-os-v17.1.md`](./current/axiom-os-v17.1.md) - v17.1 版本
-- [`axiom-os-v17.0.md`](./current/axiom-os-v17.0.md) - v17.0 版本
-- [`quick-start.md`](./current/quick-start.md) - 快速入门指南
-- [`migration-guide.md`](./current/migration-guide.md) - 版本迁移指南
 - [`README.md`](./current/README.md) - 当前版本说明
 
 ### 📂 [archive/](./archive/) - 历史版本存档
+- [`axiom-os-v18.0.md`](./archive/axiom-os-v18.0.md) - v18.0 版本
+- [`axiom-os-v17.2.md`](./archive/axiom-os-v17.2.md) - v17.2 版本
+- [`axiom-os-v17.1.md`](./archive/axiom-os-v17.1.md) - v17.1 版本
+- [`axiom-os-v17.0.md`](./archive/axiom-os-v17.0.md) - v17.0 版本
 - [`axiom-os-v16.5.md`](./archive/axiom-os-v16.5.md) - v16.5 版本
 - [`axiom-os-v16.1.md`](./archive/axiom-os-v16.1.md) - v16.1 版本
 - [`axiom-os-v16.0.md`](./archive/axiom-os-v16.0.md) - v16.0 版本
@@ -36,10 +34,12 @@
 - [`claude-python-integration.zh.md`](./configs/claude-python-integration.zh.md) - Claude Python 集成指南
 
 ### 📂 [protocols/](./protocols/) - 协议文档
-- [`riper-protocol-v2.1.md`](./protocols/riper-protocol-v2.1.md) - RIPER协议 v2.1
-- [`nexus-protocol-v3.0.md`](./protocols/nexus-protocol-v3.0.md) - Nexus协议 v3.0
+- [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md) - **最新** Nexus OS v4.0 Archon协议
+- [`nexus-protocol-v4.md`](./protocols/nexus-protocol-v4.md) - Nexus协议 v4.0 (旧版本)
 - [`nexus-protocol-v3.6.md`](./protocols/nexus-protocol-v3.6.md) - Nexus协议 v3.6
-- [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md) - Nexus协议 v4.0
+- [`nexus-protocol-v3.0.md`](./protocols/nexus-protocol-v3.0.md) - Nexus协议 v3.0
+- [`riper-protocol-v2.1.md`](./protocols/riper-protocol-v2.1.md) - RIPER协议 v2.1
+- [`seep-protocol-v3.md`](./protocols/seep-protocol-v3.md) - SEEP协议 v3.0
 
 ### 📂 [workflows/](./workflows/) - 工作流文档
 - [`trae-workflow-v6.md`](./workflows/trae-workflow-v6.md) - TRAE工作流 v6
@@ -73,10 +73,9 @@
 ## ⚡ 快速导航
 
 ### 🎯 推荐路径
-- **新用户**: 从 [`quick-start.md`](./current/quick-start.md) 开始
-- **升级用户**: 查看 [`migration-guide.md`](./current/migration-guide.md)
-- **开发者**: 直接访问 [`axiom-os-v18.5.md`](./current/axiom-os-v18.5.md)
-- **RIPER协议**: 查看 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md)
+- **新用户**: 直接阅读 [`axiom-os-v18.5.md`](./current/axiom-os-v18.5.md) 最新版本
+- **开发者**: 查看 [`axiom-os-v18.5.md`](./current/axiom-os-v18.5.md) 和 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md)
+- **高级用户**: 探索 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md) Archon精英协议
 
 ### 📊 版本状态
 
