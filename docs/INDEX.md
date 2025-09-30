@@ -5,9 +5,10 @@
 ## 📁 文档结构
 
 ### 📂 [current/](./current/) - 当前版本文档
-- [`axiom-os-v19.1.md`](./current/axiom-os-v19.1.md) - **🟢 最新版本** AxiomOS v19.1 企业级质量门禁
+- [`axiom-os-v20.md`](./current/axiom-os-v20.md) - **🟢 最新版本** AxiomOS v20.0 MCP工具集成版
+- [`axiom-os-v19.1.md`](./current/axiom-os-v19.1.md) - **🟡 维护模式** AxiomOS v19.1 企业级质量门禁
 - [`axiom-os-v19.1_en.md`](./current/axiom-os-v19.1_en.md) - **🌐 English Version** AxiomOS v19.1
-- [`axiom-os-v19.0.md`](./current/axiom-os-v19.0.md) - **🟡 维护模式** AxiomOS v19.0 六大操作模式
+- [`axiom-os-v19.0.md`](./current/axiom-os-v19.0.md) - **📦 已归档** AxiomOS v19.0 六大操作模式
 - [`axiom-os-v18.5.md`](./current/axiom-os-v18.5.md) - 📦 v18.5 版本（核心思维原则）
 - [`axiom-os-v18.3.md`](./current/axiom-os-v18.3.md) - 📦 v18.3 版本（安全内核增强）
 - [`README.md`](./current/README.md) - 当前版本说明
@@ -76,8 +77,8 @@
 ## ⚡ 快速导航
 
 ### 🎯 推荐路径
-- **新用户**: 直接阅读 [`axiom-os-v19.1.md`](./current/axiom-os-v19.1.md) 最新版本 🟢
-- **开发者**: 查看 [`axiom-os-v19.1.md`](./current/axiom-os-v19.1.md) 和 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md)
+- **新用户**: 直接阅读 [`axiom-os-v20.md`](./current/axiom-os-v20.md) 最新版本 🟢
+- **开发者**: 查看 [`axiom-os-v20.md`](./current/axiom-os-v20.md) 和 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md)
 - **高级用户**: 探索 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md) Archon精英协议 🚀
 - **English Readers**: Check [`axiom-os-v19.1_en.md`](./current/axiom-os-v19.1_en.md) 🌐
 
@@ -85,7 +86,8 @@
 
 | 版本系列 | 当前版本 | 状态 | 支持期限 |
 |---------|----------|------|----------|
-| **v19.x** | v19.1 | 🟢 生产 | 2026-09 |
+| **v20.x** | v20.0 | 🟢 生产就绪 | 至少到 2026-12 |
+| v19.x | v19.1 | 🟡 维护中 | 2026-09 |
 | v18.x | v18.5 | 📦 归档 | 2025-12 |
 | v17.x | v17.2 | 🗄️ 存档 | 已结束 |
 | v16.x | v16.5 | 🗄️ 存档 | 已结束 |
