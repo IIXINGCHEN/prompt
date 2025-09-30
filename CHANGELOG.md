@@ -7,6 +7,97 @@
 
 ## [Unreleased]
 
+## [19.1.0] - 2025-09-28
+
+### Added
+- 11大类生产级交付物标准（A到K的完整质量门禁）
+  - K. 跨平台兼容性（文件编码、换行符、路径处理、大小写敏感、Shell脚本）
+- 新增第6.0节：指令分诊协议 (Instruction Triage Protocol)
+  - 智能路由机制：微任务、调试、审查、复杂开发、默认路由
+- 新增第6.1节：监督式全自动模式 (SFAM - Supervised Full-Automation Mode)
+  - 端到端开发效率最大化
+  - 一次性集中决策机制
+- 新增第6.8节：微任务模式 (MTM - Micro-Task Mode Protocol)
+  - 三阶段快速执行：范围确认 → 自动化执行 → 交付
+- 新增第6.9节：指令增强模式 (Instruction Enhancement Mode)
+  - 元模式：用于优化用户指令本身
+  - 隔离执行，暂停所有其他协议
+- 新增第7.1节：会话状态管理协议 (Session State Management Protocol)
+  - 状态序列化/反序列化机制
+  - AxiomOS_Session_State XML块格式
+  - 无损上下文会话延续
+
+### Changed
+- 重构第6.2节：标准开发模式升级为SDM-RFC协议
+  - 更严格的质量门控流程
+  - 契约化授权机制
+- 升级第6.3节：审计模式为审计与优化模式
+  - 多维度分析框架（空间、立体、逆向思维）
+  - 强制性修复与验证标准
+- 强化第6.4节：安全渗透模式为PENTEST-ADVANCED
+  - 完整的威胁建模流程
+  - 五阶段执行协议
+- 重构第6.7节：项目引导模式
+  - 新增部署兼容性守卫（.editorconfig, .gitattributes）
+  - 跨平台一致性工具层强制执行
+- 优化第8节：自我诊断与交互协议
+  - 强制动态生成真实数据
+  - 严禁占位符（如[动态生成]、[动态获取]等）
+- 全面修正第1.2节：不可变身份协议
+  - 明确要求动态获取底层模型真实名称
+  - 移除可能引起混淆的身份声明
+
+### Enhanced
+- 新增英文版文档 `axiom-os-v19.1_en.md`
+- 完整保留v19.0和v18.5的所有功能
+- 文档格式一致性改进（标题层级、水平线分隔符）
+
+## [19.0.0] - 2025-09-27
+
+### Added
+- 六大核心操作模式统一框架
+- 新增第6.1节：标准开发模式 (Standard Development Mode - SDM)
+  - 六阶段质量门控：Scope → Architect → Atomize → Approve → Automate → Assess
+  - RFC文档驱动开发
+- 新增第6.2节：审计与优化模式 (Audit & Optimization Mode)
+  - 多维度代码审查框架
+  - 强制性修复验证机制
+- 新增第6.3节：安全渗透模式 (Security Penetration Mode)
+  - PENTEST-ADVANCED执行协议
+  - 五阶段威胁建模与攻击向量分析
+  - 机构级安全渗透测试报告
+- 新增第6.4节：调试模式 (Debug Mode)
+  - 根因分析流程
+  - 测试驱动修复
+- 新增第6.5节：审查模式 (Review Mode)
+  - 专业代码审查
+  - 结构化审查报告
+- 新增第6.6节：项目引导模式 (Project Onboarding Mode)
+  - .arc目录初始化
+  - 跨平台兼容性配置
+- 新增第7.2节：Ultrathink协议
+  - 深度战略分析
+  - 四阶段思维框架（系统、辩证、批判、决策）
+  - 自主专家模式与协作蓝图模式
+- 新增第7.1节：上下文压缩与状态管理
+  - AxiomOS_Session_State序列化机制
+
+### Changed
+- 重构核心操作模式体系
+  - 统一六大模式入口
+  - 明确模式触发条件和路由规则
+- 升级自我诊断报告
+  - 新增上下文同步状态字段
+  - 新增上下文压缩状态字段
+- 强化安全内核协议
+  - 更严格的身份验证
+  - 增强的注入攻击检测
+
+### Enhanced
+- 完整保留v18.5的所有核心功能
+- 文档结构优化，模式化组织
+- 质量门控标准提升
+
 ## [18.5.0] - 2025-09-26
 
 ### Added
@@ -174,7 +265,9 @@
 
 ## 链接
 
-- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v18.5.0...HEAD
+- [Unreleased]: https://github.com/IIXINGCHEN/prompt/compare/v19.1.0...HEAD
+- [19.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v19.1.0
+- [19.0.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v19.0.0
 - [18.5.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.5.0
 - [18.3.0]: https://github.com/IIXINGCHEN/prompt/compare/v18.1.0...v18.3.0
 - [18.1.0]: https://github.com/IIXINGCHEN/prompt/releases/tag/v18.1.0

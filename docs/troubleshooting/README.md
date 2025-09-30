@@ -1,5 +1,7 @@
 # 🔧 故障排除指南
 
+---
+
 本目录包含 AxiomOS 使用过程中常见问题的解决方案。
 
 ## 📋 问题分类
@@ -49,6 +51,8 @@ cp docs/references/mcp-unified-config.json ~/.config/claude/claude_desktop_confi
 ```
 
 ## 📞 获取帮助
+
+---
 
 如果以上方法无法解决问题：
 
