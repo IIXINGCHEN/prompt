@@ -5,8 +5,9 @@
 ## 📁 文档结构
 
 ### 📂 [current/](./current/) - 当前版本文档
-- [`axiom-os-v20.md`](./current/axiom-os-v20.md) - **🟢 最新版本** AxiomOS v20.0 MCP工具集成版
-- [`axiom-os-v19.1.md`](./current/axiom-os-v19.1.md) - **🟡 维护模式** AxiomOS v19.1 企业级质量门禁
+- [`axiom-os-v20.2-001.md`](./current/axiom-os-v20.2-001.md) - **🟢 最新版本** AxiomOS v20.2 完整性协议增强版
+- [`axiom-os-v20.md`](./current/axiom-os-v20.md) - **🟡 维护模式** AxiomOS v20.0 MCP工具集成版
+- [`axiom-os-v19.1.md`](./current/axiom-os-v19.1.md) - **📦 已归档** AxiomOS v19.1 企业级质量门禁
 - [`axiom-os-v19.1_en.md`](./current/axiom-os-v19.1_en.md) - **🌐 English Version** AxiomOS v19.1
 - [`axiom-os-v19.0.md`](./current/axiom-os-v19.0.md) - **📦 已归档** AxiomOS v19.0 六大操作模式
 - [`axiom-os-v18.5.md`](./current/axiom-os-v18.5.md) - 📦 v18.5 版本（核心思维原则）
@@ -27,7 +28,6 @@
 - [`cognitive-copilot-protocol-v13.2.md`](./archive/cognitive-copilot-protocol-v13.2.md) - 认知协处理协议 v13.2
 - [`cognitive-copilot-protocol-v12.0.md`](./archive/cognitive-copilot-protocol-v12.0.md) - 认知协处理协议 v12.0
 - [`cognitive-copilot-protocol-v11.0.md`](./archive/cognitive-copilot-protocol-v11.0.md) - 认知协处理协议 v11.0
-- [`axiom-os-integration-v4.0.md`](./archive/axiom-os-integration-v4.0.md) - AxiomOS 集成协议
 - [`axiom-os-user-prompt-guide-early.md`](./archive/axiom-os-user-prompt-guide-early.md) - 早期用户指南
 - [`user-prompt-guide-v1.md`](./archive/user-prompt-guide-v1.md) - 用户提示指南 v1.0
 - [`README.md`](./archive/README.md) - 存档说明
@@ -39,7 +39,6 @@
 
 ### 📂 [protocols/](./protocols/) - 协议文档
 - [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md) - **最新** Nexus OS v4.0 Archon协议
-- [`nexus-protocol-v4.md`](./protocols/nexus-protocol-v4.md) - Nexus协议 v4.0 (旧版本)
 - [`nexus-protocol-v3.6.md`](./protocols/nexus-protocol-v3.6.md) - Nexus协议 v3.6
 - [`nexus-protocol-v3.0.md`](./protocols/nexus-protocol-v3.0.md) - Nexus协议 v3.0
 - [`riper-protocol-v2.1.md`](./protocols/riper-protocol-v2.1.md) - RIPER协议 v2.1
@@ -77,8 +76,8 @@
 ## ⚡ 快速导航
 
 ### 🎯 推荐路径
-- **新用户**: 直接阅读 [`axiom-os-v20.md`](./current/axiom-os-v20.md) 最新版本 🟢
-- **开发者**: 查看 [`axiom-os-v20.md`](./current/axiom-os-v20.md) 和 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md)
+- **新用户**: 直接阅读 [`axiom-os-v20.2-001.md`](./current/axiom-os-v20.2-001.md) 最新版本 🟢
+- **开发者**: 查看 [`axiom-os-v20.2-001.md`](./current/axiom-os-v20.2-001.md) 和 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md)
 - **高级用户**: 探索 [`nexus-protocol-v4.0.md`](./protocols/nexus-protocol-v4.0.md) Archon精英协议 🚀
 - **English Readers**: Check [`axiom-os-v19.1_en.md`](./current/axiom-os-v19.1_en.md) 🌐
 
@@ -86,8 +85,8 @@
 
 | 版本系列 | 当前版本 | 状态 | 支持期限 |
 |---------|----------|------|----------|
-| **v20.x** | v20.0 | 🟢 生产就绪 | 至少到 2026-12 |
-| v19.x | v19.1 | 🟡 维护中 | 2026-09 |
+| **v20.x** | v20.2 | 🟢 生产就绪 | 至少到 2027-01 |
+| v19.x | v19.1 | 📦 归档 | 2026-09 |
 | v18.x | v18.5 | 📦 归档 | 2025-12 |
 | v17.x | v17.2 | 🗄️ 存档 | 已结束 |
 | v16.x | v16.5 | 🗄️ 存档 | 已结束 |
@@ -124,4 +123,4 @@
 - 📝 [更新日志](../CHANGELOG.md)
 
 ---
-*最后更新: 2025年9月*
+*最后更新: 2025年1月*

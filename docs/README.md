@@ -93,7 +93,8 @@ docs/
 - **axiom-os-v18.5.md** - AxiomOS v18.5
 - **axiom-os-v19.0.md** - AxiomOS v19.0
 - **axiom-os-v19.1.md** - AxiomOS v19.1
-- **axiom-os-v20.md** - AxiomOS v20.0（最新稳定版本，推荐使用）
+- **axiom-os-v20.2-001.md** - AxiomOS v20.2（最新版本，强烈推荐）
+- **axiom-os-v20.md** - AxiomOS v20.0（MCP工具集成版）
 - **migration-guide.md** - 版本迁移指南
 - **quick-start.md** - 快速开始指南
 
@@ -142,7 +143,8 @@ docs/
 - **v18.5** - AxiomOS 增强版本
 - **v19.0** - AxiomOS 六大操作模式框架版本
 - **v19.1** - AxiomOS 企业级质量门禁系统版本
-- **v20.0** - AxiomOS MCP工具生态集成版本（当前推荐版本）
+- **v20.2** - AxiomOS 完整性协议增强版本（当前推荐版本）
+- **v20.0** - AxiomOS MCP工具生态集成版本
 
 ### TRAE 工作流程版本
 - **6A 工作流** - 六阶段工作流程（Align → Architect → Atomize → Approve → Act → Assess）
@@ -176,8 +178,8 @@ docs/
 
 ## 🔗 快速导航
 
-- **新手入门**: 建议从 [AxiomOS v20.0](current/axiom-os-v20.md) 或 [快速开始指南](current/quick-start.md) 开始
-- **工作流程**: 查看 [TRAE 7A 工作流 v4](workflows/trae-workflow-v7-v4.md)
+- **新手入门**: 建议从 [AxiomOS v20.2](current/axiom-os-v20.2-001.md) 或 [快速开始指南](current/quick-start.md) 开始
+- **工作流程**: 查看内置的 SDM-RFC 6阶段工作流（集成在 v20.2 中）
 - **工具配置**: 参考 [MCP 配置指南](references/mcp-config-guide.md)
 - **问题排查**: 查看 [MCP 工具参考手册](references/mcp-tools-reference.md)
 - **版本迁移**: 阅读 [迁移指南](current/migration-guide.md)

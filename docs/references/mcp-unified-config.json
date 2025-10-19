@@ -89,9 +89,9 @@
     "required_node_version": ">=18.0.0"
   },
   "metadata": {
-    "created_by": "AxiomOS v15.0",
-    "last_updated": "2025-01-22",
+    "created_by": "AxiomOS v20.2",
+    "last_updated": "2025-01-19",
     "compatibility": ["claude-desktop", "mcp-client"],
-    "documentation": "../mcp-config-guide.md"
+    "documentation": "./mcp-config-guide.md"
   }
 }
