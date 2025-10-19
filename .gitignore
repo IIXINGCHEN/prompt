@@ -147,3 +147,6 @@ docs/.doctrees/
 
 .spec-workflow/
 .claude/
+
+# AxiomOS global context core (should not be committed)
+.arc/

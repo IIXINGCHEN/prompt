@@ -101,7 +101,7 @@ prompt/
 
 | 版本 | 状态 | 推荐用途 | 文档 |
 |------|------|----------|------|
-| **v20.2** | 🟢 生产就绪 | 完整性协议、回归防止、Ultrathink增强 | [axiom-os-v20.2-summary.md](docs/current/axiom-os-v20.2-summary.md) |
+| **v20.2** | 🟢 生产就绪 | 完整性协议、回归防止、Ultrathink增强 | [axiom-os-v20.2-001.md](docs/current/axiom-os-v20.2-001.md) |
 | v20.0 | 🟡 维护模式 | MCP工具集成、Artifact协议 | [axiom-os-v20.md](docs/current/axiom-os-v20.md) |
 | v19.1 | 📦 已归档 | 企业级项目、11大类质量门禁 | [axiom-os-v19.1.md](docs/current/axiom-os-v19.1.md) |
 | v19.0 | 📦 已归档 | 六大操作模式统一框架 | [axiom-os-v19.0.md](docs/current/axiom-os-v19.0.md) |

@@ -111,7 +111,7 @@
 ## 📖 快速开始
 
 1. **新用户**: 建议直接阅读 `axiom-os-v20.2-001.md`
-2. **现有用户**: 如需从旧��升级，请查看 [迁移指南](./migration-guide.md)
+2. **现有用户**: 如需从旧版本升级，请查看 [VERSION_TRACKING.md](./VERSION_TRACKING.md)
 3. **快速上手**: 查看 [快速入门指南](./quick-start.md)
 
 ## 🔧 配置要求

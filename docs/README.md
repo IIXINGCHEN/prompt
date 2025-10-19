@@ -49,7 +49,7 @@ docs/
 │   ├── axiom-os-v19.0.md                    # AxiomOS v19.0
 │   ├── axiom-os-v19.1.md                    # AxiomOS v19.1
 │   ├── axiom-os-v20.md                      # AxiomOS v20.0（最新稳定版本）
-│   ├── migration-guide.md                    # 版本迁移指南
+│   ├── VERSION_TRACKING.md                   # 版本追踪记录
 │   └── quick-start.md                        # 快速开始指南
 ├── user/                                       # 用户相关文档
 │   ├── user-guide-v1.md                     # 用户文档 v1
@@ -95,7 +95,7 @@ docs/
 - **axiom-os-v19.1.md** - AxiomOS v19.1
 - **axiom-os-v20.2-001.md** - AxiomOS v20.2（最新版本，强烈推荐）
 - **axiom-os-v20.md** - AxiomOS v20.0（MCP工具集成版）
-- **migration-guide.md** - 版本迁移指南
+- **VERSION_TRACKING.md** - 版本追踪记录
 - **quick-start.md** - 快速开始指南
 
 ### 📂 历史版本存档 (archive/)
@@ -182,7 +182,7 @@ docs/
 - **工作流程**: 查看内置的 SDM-RFC 6阶段工作流（集成在 v20.2 中）
 - **工具配置**: 参考 [MCP 配置指南](references/mcp-config-guide.md)
 - **问题排查**: 查看 [MCP 工具参考手册](references/mcp-tools-reference.md)
-- **版本迁移**: 阅读 [迁移指南](current/migration-guide.md)
+- **版本迁移**: 阅读 [版本追踪记录](current/VERSION_TRACKING.md)
 
 ## 📋 文件命名规范
 
