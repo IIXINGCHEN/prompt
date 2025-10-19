@@ -210,7 +210,7 @@ Linux:   ~/.config/claude/claude_desktop_config.json
 
 ### 开发流程 (Development Workflows)
 - [TRAE 6A工作流](docs/workflows/trae-workflow-v6.md)
-- [版本迁移指南](docs/current/migration-guide.md)
+- [版本追踪记录](docs/current/VERSION_TRACKING.md)
 
 ### 支持资源 (Support Resources)
 - [故障排除指南](docs/troubleshooting/README.md)

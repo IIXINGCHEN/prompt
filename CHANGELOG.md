@@ -184,7 +184,7 @@
 - 增强的指令边界定义和注入攻击检测
 - 不可变身份协议
 - Ultrathink 深度战略分析协议
-- 新增 migration-guide.md 版本迁移指南
+- 新增 VERSION_TRACKING.md 版本追踪记录
 
 ### Fixed
 - 修复了 v18.1 中的错误身份声明问题

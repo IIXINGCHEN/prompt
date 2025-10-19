@@ -27,7 +27,7 @@
 
 ## 🔄 版本迁移
 
-如果您正在使用旧版本，请参考 [迁移指南](../current/migration-guide.md) 升级到最新版本。
+如果您正在使用旧版本，请参考 [版本追踪记录](../current/VERSION_TRACKING.md) 了解升级路径。
 
 ---
 
